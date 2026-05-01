@@ -37,11 +37,11 @@ export default function KlachtenPage() {
           {conditions.map((c, i) => (
             <article
               key={c.slug}
-              className={`grid md:grid-cols-12 gap-8 items-center bg-cream rounded-3xl p-8 md:p-12 border border-line/60 ${
+              className={`grid md:grid-cols-12 gap-6 md:gap-8 items-center bg-cream rounded-3xl p-6 md:p-12 border border-line/60 ${
                 i % 2 === 1 ? "md:[&>div:first-child]:order-2" : ""
               }`}
             >
-              <div className="md:col-span-4">
+              <div className="md:col-span-4 max-w-[200px] md:max-w-none mx-auto md:mx-0">
                 <div className="aspect-square rounded-2xl overflow-hidden bg-blush-soft border border-line/40">
                   <Image
                     src={c.image}
@@ -54,7 +54,7 @@ export default function KlachtenPage() {
               </div>
 
               <div className="md:col-span-8">
-                <h2 className="text-3xl md:text-4xl mb-4">{c.title}</h2>
+                <h2 className="text-2xl md:text-4xl mb-3 md:mb-4">{c.title}</h2>
                 <p className="text-ink-soft text-lg leading-relaxed mb-5">
                   {c.summary}
                 </p>

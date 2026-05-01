@@ -27,7 +27,7 @@ export default function ContactPage() {
             <span className="text-xs uppercase tracking-widest text-gold-deep">
               Neem contact op
             </span>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl mt-3 leading-[1.05] pb-1">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl mt-3 leading-[1.05] pb-1">
               Stuur me een <span className="gold-text">bericht</span>
             </h1>
             <p className="text-lg text-ink-soft mt-6 leading-relaxed max-w-xl">

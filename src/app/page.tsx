@@ -44,7 +44,7 @@ export default function HomePage() {
                 </span>
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl leading-[1.05] mb-6 animate-fade-in-up delay-100 pb-2">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] mb-6 animate-fade-in-up delay-100 pb-2">
                 Ruimte om <span className="gold-text">jezelf</span><br />
                 opnieuw te <br />
                 ontmoeten.
@@ -94,7 +94,7 @@ export default function HomePage() {
                   />
                 </div>
 
-                <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl p-4 shadow-xl border border-line/50 max-w-[230px]">
+                <div className="hidden sm:block absolute -bottom-6 -left-6 bg-white rounded-2xl p-4 shadow-xl border border-line/50 max-w-[230px]">
                   <div className="flex items-center gap-2 mb-1">
                     <Heart size={14} className="text-gold-deep fill-blush" />
                     <span className="text-xs uppercase tracking-widest text-gold-deep font-medium">
@@ -107,7 +107,7 @@ export default function HomePage() {
                   <p className="text-xs text-ink-mute mt-1">— Mari Louise</p>
                 </div>
 
-                <div className="absolute -top-6 -right-4 bg-gold-deep text-white rounded-2xl px-4 py-3 shadow-xl">
+                <div className="hidden sm:block absolute -top-6 -right-4 bg-gold-deep !text-white rounded-2xl px-4 py-3 shadow-xl">
                   <div className="text-xs uppercase tracking-widest opacity-80">Ervaring</div>
                   <div className="text-2xl font-display">20 jaar</div>
                 </div>
