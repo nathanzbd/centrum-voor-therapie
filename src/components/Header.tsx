@@ -86,13 +86,12 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <a
-              href={`tel:${business.phoneRaw}`}
-              className="hidden md:inline-flex btn-primary"
-            >
-              <Phone size={16} />
-              Bel nu
-            </a>
+            <div className="hidden lg:block">
+              <a href={`tel:${business.phoneRaw}`} className="btn-primary">
+                <Phone size={16} />
+                Bel nu
+              </a>
+            </div>
             <button
               onClick={() => setMobileOpen((v) => !v)}
               className="lg:hidden p-2 text-ink"

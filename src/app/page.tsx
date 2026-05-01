@@ -81,7 +81,7 @@ export default function HomePage() {
             </div>
 
             <div className="relative animate-scale-in delay-200">
-              <div className="relative aspect-[4/5] max-w-md mx-auto">
+              <div className="relative aspect-[4/5] max-w-xs sm:max-w-sm lg:max-w-md mx-auto">
                 <div className="absolute -inset-4 rounded-[3rem] bg-gradient-to-br from-blush via-cream to-gold-light blur-2xl opacity-50 animate-pulse-soft" />
                 <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden border border-line/60 shadow-2xl bg-blush-soft">
                   <Image

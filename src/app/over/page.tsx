@@ -52,7 +52,7 @@ export default function OverPage() {
       <section className="py-20">
         <div className="mx-auto max-w-6xl px-6 lg:px-10 grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-4">
-            <div className="sticky top-28">
+            <div className="lg:sticky lg:top-28 max-w-xs mx-auto lg:max-w-none">
               <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-line/60 shadow-xl bg-blush-soft">
                 <Image
                   src="/images/profile/mari-louise-round.png"
