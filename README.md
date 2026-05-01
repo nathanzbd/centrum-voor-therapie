@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Centrum voor Therapie
 
-## Getting Started
+Website voor **Centrum voor Therapie** in Purmerend — psychotherapie praktijk van Mari Louise Fongers (ECP gecertificeerd, ~20 jaar ervaring).
 
-First, run the development server:
+- **Live:** https://centrum-voor-therapie.vercel.app
+- **Domein (later):** centrumvoortherapie.nl
+- **Hosting:** Vercel
+- **Repo:** github.com/nathanzbd/centrum-voor-therapie
+
+## Stack
+
+- Next.js 16 (App Router) · React 19 · Tailwind CSS v4
+- Lora (display) + Inter (body) via `next/font/google`
+- Resend voor het contactformulier
+- `lucide-react` icons
+
+## Lokaal draaien
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev          # http://localhost:3000
+npm run build        # productie build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Pagina's
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Pad | Inhoud |
+|-----|--------|
+| `/` | Home — hero, klachten, quote, reviews, certificaten, CTA |
+| `/over` | Over Mari Louise — bio + certificeringen |
+| `/werkwijze` | Integratieve psychotherapie uitleg |
+| `/klachten` | Overzicht klachten |
+| `/klachten/[slug]` | Subpagina per klacht (8 totaal) |
+| `/praktijk` | Praktijkruimte galerij + bereikbaarheid |
+| `/tarieven` | Tarieven & vergoedingen |
+| `/reviews` | Alle Google reviews |
+| `/contact` | Formulier + map + WhatsApp |
+| `/privacy` · `/disclaimer` | Juridisch |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Inhoud aanpassen
 
-## Learn More
+Eén bron voor alle praktijk-info: **`src/lib/content.ts`** (telefoon, email, adres, USPs, klachten, certificaten, tarieven, bio).
+Reviews staan in **`src/lib/reviews.ts`**.
 
-To learn more about Next.js, take a look at the following resources:
+## Environment variabelen (Vercel)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Naam | Waarvoor |
+|------|----------|
+| `RESEND_API_KEY` | Mailen vanuit het contactformulier (verplicht voor productie) |
+| `CONTACT_TO` | E-mailadres dat berichten ontvangt (default: centrumvoortherapie@gmail.com) |
+| `CONTACT_FROM` | Afzender header (default: Resend's sandbox; eigen domein als DNS klaar is) |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Mappenstructuur
 
-## Deploy on Vercel
+```
+src/
+├── app/                 Next.js App Router pagina's & API
+│   ├── api/contact/     Contactformulier handler (Resend)
+│   ├── klachten/[slug]/ Dynamische klacht-subpagina's
+│   └── ...
+├── components/          Header, Footer, ContactForm, Reveal, WhatsAppButton
+└── lib/                 content.ts + reviews.ts (single source of truth)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+public/images/
+├── certifications/      ECP, EAP, VIT, SCAG, NVECP, EMDR-i, RBCZ
+├── conditions/          Watercolor klacht-illustraties
+├── educational/         Tree-of-growth, yin-yang flowers
+├── logo/                Logo varianten
+├── praktijk/            5 praktijkruimte foto's
+└── profile/             Mari Louise portretfoto's
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+_scraped/                Onderzoek (originele site HTML, screenshots, reviews JSON)
+```
+
+## Deploy
+
+Push naar `main` deployt automatisch naar productie via de Vercel-GitHub integratie. Handmatig:
+
+```bash
+vercel --prod
+```
