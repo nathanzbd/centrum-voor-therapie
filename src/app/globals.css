@@ -51,10 +51,20 @@ h1, h2, h3, h4, h5 {
   font-weight: 400;
 }
 
-/* Italic Fraunces has tall descenders/ascenders — give them breathing room */
-h1 .italic, h2 .italic, h3 .italic, h4 .italic {
+/* Disable Fraunces italic everywhere — the swashy italic glyphs don't fit
+   the calm tone of this site. We keep emphasis via the gold gradient or
+   a heavier weight instead. */
+h1 .italic, h2 .italic, h3 .italic, h4 .italic, h5 .italic,
+h1 [class*="italic"], h2 [class*="italic"],
+.font-display.italic, .font-display .italic,
+[class*="text-3xl"].italic, [class*="text-3xl"] .italic,
+[class*="text-4xl"].italic, [class*="text-4xl"] .italic,
+[class*="text-5xl"].italic, [class*="text-5xl"] .italic,
+[class*="text-6xl"].italic, [class*="text-6xl"] .italic,
+[class*="text-7xl"].italic, [class*="text-7xl"] .italic {
+  font-style: normal !important;
   display: inline-block;
-  padding-right: 0.08em;
+  padding-right: 0.04em;
   padding-bottom: 0.04em;
 }
 
@@ -135,8 +145,11 @@ h1 .italic, h2 .italic, h3 .italic, h4 .italic {
   background-clip: text;
   color: transparent;
   display: inline-block;
-  padding-right: 0.05em;
-  padding-bottom: 0.04em;
+  padding-right: 0.08em;
+  padding-bottom: 0.06em;
+  padding-left: 0.02em;
+  line-height: 1.15;
+  font-style: normal;
 }
 
 .warm-gradient {

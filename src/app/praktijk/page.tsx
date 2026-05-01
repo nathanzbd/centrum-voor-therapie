@@ -34,7 +34,7 @@ export default function PraktijkPage() {
             Praktijkruimte
           </span>
           <h1 className="text-5xl md:text-6xl mt-3 leading-tight pb-1">
-            Een plek waar je <span className="italic gold-text">tot rust</span> komt
+            Een plek waar je <span className="gold-text">tot rust</span> komt
           </h1>
           <p className="text-lg text-ink-soft mt-5 max-w-2xl mx-auto">
             De praktijk is een prettige en rustige ruimte op de begane grond,
@@ -125,7 +125,7 @@ export default function PraktijkPage() {
                 Bereikbaarheid
               </span>
               <h2 className="text-4xl md:text-5xl mt-3 leading-tight pb-1">
-                Goed te <span className="italic gold-text">vinden</span>
+                Goed te <span className="gold-text">vinden</span>
               </h2>
             </div>
           </Reveal>
@@ -191,7 +191,7 @@ export default function PraktijkPage() {
         <div className="mx-auto max-w-3xl px-6 lg:px-10 text-center">
           <Reveal>
             <h2 className="text-3xl md:text-4xl mb-5 pb-1">
-              Welkom in <span className="italic gold-text">de praktijk</span>
+              Welkom in <span className="gold-text">de praktijk</span>
             </h2>
             <p className="text-ink-soft mb-8">
               Stuur me een bericht voor een kennismakingsgesprek — vrijblijvend en zonder druk.

@@ -22,7 +22,7 @@ export default function ReviewsPage() {
             Ervaringen
           </span>
           <h1 className="text-5xl md:text-6xl mt-3 leading-tight">
-            Wat cliënten <span className="italic gold-text">vertellen</span>
+            Wat cliënten <span className="gold-text">vertellen</span>
           </h1>
           <div className="flex items-center justify-center gap-3 mt-6">
             <div className="flex">

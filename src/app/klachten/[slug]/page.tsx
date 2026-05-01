@@ -57,7 +57,7 @@ export default async function ConditionPage({
                 Specialisatie
               </span>
               <h1 className="text-5xl md:text-6xl mt-3 leading-[1.05]">
-                Hulp bij <span className="italic gold-text">{condition.title.toLowerCase()}</span>
+                Hulp bij <span className="gold-text">{condition.title.toLowerCase()}</span>
               </h1>
               <p className="text-lg text-ink-soft mt-6 leading-relaxed">
                 {condition.summary}
@@ -66,7 +66,7 @@ export default async function ConditionPage({
             <div className="md:col-span-5">
               <div className="relative aspect-square max-w-sm mx-auto">
                 <div className="absolute -inset-6 rounded-full bg-gradient-to-br from-blush via-cream to-gold-light blur-2xl opacity-50 animate-pulse-soft" />
-                <div className="relative aspect-square rounded-full overflow-hidden border-4 border-white shadow-2xl bg-blush-soft animate-float">
+                <div className="relative aspect-square rounded-full overflow-hidden border-4 border-white shadow-2xl bg-blush-soft">
                   <Image
                     src={condition.image}
                     alt={condition.title}
@@ -125,7 +125,7 @@ export default async function ConditionPage({
         <div className="mx-auto max-w-3xl px-6 lg:px-10 text-center">
           <Reveal>
             <h2 className="text-3xl md:text-4xl mb-5">
-              Neem de eerste <span className="italic gold-text">stap</span>
+              Neem de eerste <span className="gold-text">stap</span>
             </h2>
             <p className="text-ink-soft mb-8">
               Je hoeft het niet alleen uit te zoeken. Stuur een bericht of bel —

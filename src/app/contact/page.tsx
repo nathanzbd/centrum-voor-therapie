@@ -28,7 +28,7 @@ export default function ContactPage() {
               Neem contact op
             </span>
             <h1 className="text-5xl md:text-6xl lg:text-7xl mt-3 leading-[1.05] pb-1">
-              Stuur me een <span className="italic gold-text">bericht</span>
+              Stuur me een <span className="gold-text">bericht</span>
             </h1>
             <p className="text-lg text-ink-soft mt-6 leading-relaxed max-w-xl">
               Twijfel je of therapie iets voor je is? Of wil je gewoon iets vragen?
@@ -55,7 +55,7 @@ export default function ContactPage() {
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-square max-w-sm mx-auto">
               <div className="absolute -inset-6 rounded-full bg-gradient-to-br from-blush via-cream to-gold-light blur-2xl opacity-50 animate-pulse-soft" />
-              <div className="relative aspect-square rounded-full overflow-hidden border-4 border-white shadow-2xl bg-blush-soft animate-float">
+              <div className="relative aspect-square rounded-full overflow-hidden border-4 border-white shadow-2xl bg-blush-soft">
                 <Image
                   src="/images/profile/mari-louise-round.png"
                   alt="Mari-Louise Fongers"

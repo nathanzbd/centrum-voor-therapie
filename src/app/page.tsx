@@ -45,7 +45,7 @@ export default function HomePage() {
               </div>
 
               <h1 className="text-5xl md:text-6xl lg:text-7xl leading-[1.05] mb-6 animate-fade-in-up delay-100 pb-2">
-                Ruimte om <span className="italic gold-text">jezelf</span><br />
+                Ruimte om <span className="gold-text">jezelf</span><br />
                 opnieuw te <br />
                 ontmoeten.
               </h1>
@@ -83,7 +83,7 @@ export default function HomePage() {
             <div className="relative animate-scale-in delay-200">
               <div className="relative aspect-[4/5] max-w-md mx-auto">
                 <div className="absolute -inset-4 rounded-[3rem] bg-gradient-to-br from-blush via-cream to-gold-light blur-2xl opacity-50 animate-pulse-soft" />
-                <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden border border-line/60 shadow-2xl bg-blush-soft animate-float">
+                <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden border border-line/60 shadow-2xl bg-blush-soft">
                   <Image
                     src="/images/profile/mari-louise-round.png"
                     alt="Mari-Louise Fongers"
@@ -140,7 +140,7 @@ export default function HomePage() {
               </span>
               <h2 className="text-4xl md:text-5xl mt-3 leading-tight pb-1">
                 Mari-Louise<br />
-                <span className="italic text-gold-deep">Fongers</span>
+                <span className="text-gold-deep font-medium">Fongers</span>
               </h2>
               <p className="text-ink-mute mt-4 italic">
                 Integratief Psychotherapeut · ECP gecertificeerd
@@ -173,7 +173,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Educational visual band: phrenology + integrative therapy */}
+      {/* Educational visual band: integrative therapy approach */}
       <section className="relative py-24 bg-cream overflow-hidden">
         <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
           <Reveal>
@@ -181,8 +181,8 @@ export default function HomePage() {
               <div className="absolute -inset-8 bg-blush/30 blur-3xl rounded-full" />
               <div className="relative w-full h-full rounded-3xl overflow-hidden border border-line/60 shadow-xl bg-blush-soft">
                 <Image
-                  src="/images/educational/phrenology-head.jpg"
-                  alt="Geest en lichaam in balans — integratieve psychotherapie"
+                  src="/images/educational/tree-of-growth.jpg"
+                  alt="Geworteld groeien — integratieve psychotherapie"
                   fill
                   sizes="(max-width: 1024px) 80vw, 480px"
                   className="object-cover"
@@ -202,7 +202,7 @@ export default function HomePage() {
             </span>
             <h2 className="text-4xl md:text-5xl mt-3 leading-tight pb-1">
               Geen vast protocol.<br />
-              <span className="italic gold-text">Een aanpak op maat.</span>
+              <span className="gold-text">Een aanpak op maat.</span>
             </h2>
             <p className="text-ink-soft text-lg leading-relaxed mt-6 mb-6">
               Integratieve psychotherapie betekent dat ik verschillende therapeutische
@@ -239,7 +239,7 @@ export default function HomePage() {
                 Specialisaties
               </span>
               <h2 className="text-4xl md:text-5xl mt-3 leading-tight pb-1">
-                Herken jij iets <span className="italic gold-text">van het volgende?</span>
+                Herken jij iets <span className="gold-text">van het volgende?</span>
               </h2>
               <p className="text-ink-soft mt-5 text-lg">
                 Voor uiteenlopende klachten bied ik persoonlijke begeleiding —
@@ -309,7 +309,7 @@ export default function HomePage() {
                   Ervaringen
                 </span>
                 <h2 className="text-4xl md:text-5xl mt-3 leading-tight pb-1 max-w-2xl">
-                  Wat cliënten <span className="italic gold-text">vertellen</span>
+                  Wat cliënten <span className="gold-text">vertellen</span>
                 </h2>
               </div>
               <div className="flex items-center gap-3">
@@ -364,7 +364,7 @@ export default function HomePage() {
                 Aangesloten bij
               </span>
               <h2 className="text-3xl md:text-4xl mt-3 pb-1">
-                Erkende <span className="italic gold-text">kwaliteit</span>
+                Erkende <span className="gold-text">kwaliteit</span>
               </h2>
             </div>
           </Reveal>

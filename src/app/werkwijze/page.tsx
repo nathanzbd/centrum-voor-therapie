@@ -39,7 +39,7 @@ export default function WerkwijzePage() {
             Werkwijze
           </span>
           <h1 className="text-5xl md:text-6xl mt-3 leading-tight">
-            Integratieve <span className="italic gold-text">psychotherapie</span>
+            Integratieve <span className="gold-text">psychotherapie</span>
           </h1>
           <p className="text-lg text-ink-soft mt-5 max-w-2xl mx-auto">
             Geen vast protocol, maar een aanpak die past bij jou. Ik combineer

@@ -23,7 +23,7 @@ export default function KlachtenPage() {
             Specialisaties
           </span>
           <h1 className="text-5xl md:text-6xl mt-3 leading-tight">
-            Klachten waarbij ik je <span className="italic gold-text">begeleid</span>
+            Klachten waarbij ik je <span className="gold-text">begeleid</span>
           </h1>
           <p className="text-lg text-ink-soft mt-5 max-w-2xl mx-auto">
             Voor uiteenlopende klachten bied ik persoonlijke begeleiding —

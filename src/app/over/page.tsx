@@ -26,7 +26,7 @@ export default function OverPage() {
               </span>
               <h1 className="text-5xl md:text-6xl mt-3 leading-tight">
                 Mari-Louise<br />
-                <span className="italic gold-text">Fongers</span>
+                <span className="gold-text">Fongers</span>
               </h1>
               <p className="text-lg text-ink-soft mt-5 leading-relaxed">
                 {aboutBio.short}
@@ -67,7 +67,7 @@ export default function OverPage() {
               Certificering
             </span>
             <h2 className="text-4xl md:text-5xl mt-3">
-              Aangesloten bij <span className="italic">erkende</span> verenigingen
+              Aangesloten bij <span className="gold-text">erkende</span> verenigingen
             </h2>
           </div>
 

@@ -30,7 +30,7 @@ export default function TarievenPage() {
             Tarieven
           </span>
           <h1 className="text-5xl md:text-6xl mt-3 leading-tight">
-            Heldere <span className="italic gold-text">tarieven</span>
+            Heldere <span className="gold-text">tarieven</span>
           </h1>
           <p className="text-lg text-ink-soft mt-5">
             Eerlijke prijzen, zonder verrassingen. BTW-vrijgesteld voor particuliere zorgverlening.
