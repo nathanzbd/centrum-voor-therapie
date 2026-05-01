@@ -1,0 +1,177 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - text: 06 30682579
+      - link "centrumvoortherapie@gmail.com" [ref=e6] [cursor=pointer]:
+        - /url: mailto:centrumvoortherapie@gmail.com
+    - banner [ref=e7]:
+      - generic [ref=e8]:
+        - generic:
+          - link "Centrum voor therapie":
+            - /url: https://centrumvoortherapie.nl/
+            - img "Centrum voor therapie"
+        - generic [ref=e9]:
+          - navigation [ref=e10]:
+            - list [ref=e11]:
+              - listitem [ref=e12]:
+                - link "HOME" [ref=e13] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/Home-15-11-2021/
+              - listitem [ref=e14]:
+                - link "PSYCHOTHERAPIE 3" [ref=e15] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e16]:
+                - link "THERAPIE 3" [ref=e17] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e18]:
+                - link "PRAKTIJKRUIMTE" [ref=e19] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/praktijkruimte/
+              - listitem [ref=e20]:
+                - link "OVER MIJ" [ref=e21] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/over-mari-louise-fongers/
+              - listitem [ref=e22]:
+                - link "CONTACT" [ref=e23] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/contact/
+          - text: a
+    - generic [ref=e24]:
+      - article [ref=e26]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e57]:
+              - heading "Praktijkruimte" [level=1] [ref=e58]
+              - paragraph [ref=e59]
+            - generic [ref=e61] [cursor=pointer]:
+              - paragraph [ref=e62]:
+                - text: De praktijk is een prettige en rustige ruimte op de begane grond, waar je op geheel eigen wijze en tempo aan jezelf kunt werken en bijdragen aan verandering naar herstel.
+                - text: De warme inrichting nodigt je uit tot het laten ontstaan van je eigen natuurlijke proces.
+              - paragraph [ref=e63]: Tegenover de praktijkruimte is er voldoende gratis parkeergelegenheid en de praktijk is goed bereikbaar met het openbaar vervoer, ongeveer 4 minuten lopen vanaf de bushalte.
+            - generic [ref=e66]:
+              - heading [level=2] [ref=e67]
+              - heading [level=2] [ref=e68]
+              - heading [level=2] [ref=e69]
+              - heading "Twijfel je of therapie iets voor je is? Of wil je gewoon even iets vragen?" [level=2] [ref=e70]
+              - paragraph [ref=e71]:
+                - text: Je hoeft het niet alleen uit te zoeken.
+                - text: Laat hieronder je gegevens achter of stuur mij gerust een bericht via het WhatsApp-icoontje onderaan deze pagina.
+                - text: Ik antwoord je zo snel mogelijk en denk met je mee.
+              - paragraph [ref=e72]:
+                - emphasis [ref=e73]:
+                  - text: Lees vóór contact de
+                  - link "privacy verklaring" [ref=e74] [cursor=pointer]:
+                    - /url: https://centrumvoortherapie.nl/privacy-verklaring-2/
+                - emphasis [ref=e75]: Annuleren kan tot minimaal 48 uur van tevoren. Daarna wordt de gereserveerde sessie in rekening gebracht.
+            - generic [ref=e78] [cursor=pointer]:
+              - paragraph [ref=e79]:
+                - textbox "Naam" [ref=e80]
+              - paragraph [ref=e81]:
+                - textbox "Telefoon" [ref=e82]
+              - paragraph [ref=e83]:
+                - textbox "Email" [ref=e84]:
+                  - /placeholder: "Email "
+              - paragraph [ref=e85]:
+                - textbox "Bericht" [ref=e86]
+              - paragraph [ref=e87]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]: Klik hier om ons Privacy Beleid te lezen | Verplicht aan te vinken vooraleer u verstuurd
+                  - generic [ref=e92]: Ja, ik heb het Privacy Beleid gelezen
+              - button "Verstuur 5" [ref=e95]
+          - generic [ref=e97]:
+            - figure [ref=e99]
+            - generic [ref=e101]:
+              - paragraph [ref=e102]:
+                - strong [ref=e103]:
+                  - emphasis [ref=e104]: “Waar kan ik jou bij helpen? Contacteer mij gerust! “
+                - text: "- Snel een eerste afspraak"
+                - text: "- Zonder verwijsbrief"
+                - text: "- Geen eigen-risico"
+                - text: "- Voldoende gratis parkeergelegenheid"
+                - text: "- Goed bereikbaar met het openbaar vervoer ± 4 minuten lopen vanaf de bushalte"
+              - paragraph [ref=e105]: "TELEFOON: 06 30682579"
+              - paragraph [ref=e106]: "EMAIL: centrumvoortherapie@gmail.com"
+              - paragraph [ref=e107]:
+                - text: "PRAKTIJK:"
+                - text: (Alleen op afspraak)
+                - text: Centrum voor Therapie
+                - text: Tuinstee 61
+                - text: 1446 HH Purmerend
+              - paragraph [ref=e108]: BTW NR. NL002328009B898
+              - list [ref=e109]:
+                - listitem [ref=e110]: Particuliere zorgverlening is BTW vrijgesteld
+              - paragraph [ref=e111]:
+                - text: I
+                - strong [ref=e112]: k beschik over alle gecertificeerde AGB codes
+                - text: .
+                - text: In het
+                - strong [ref=e113]: AGB- register
+                - text: worden alleen zorgverleners geregistreerd die voldoen aan de gestelde kwaliteitseisen.
+            - list [ref=e115]:
+              - listitem [ref=e116]:
+                - text: Als
+                - strong [ref=e117]: ECP therapeut
+                - text: voldoe ik aan een hoge kwaliteitsstandaard en beschik ik over het keurmerk ECP (European Certificate of Psychotherapy). Deze certificering garandeert een behandeling door een professional.
+                - emphasis [ref=e118]:
+                  - link "Meer info klik hier" [ref=e119] [cursor=pointer]:
+                    - /url: https://www.psychotherapie.pro/over-ecp
+            - figure [ref=e121]:
+              - link [ref=e122] [cursor=pointer]:
+                - /url: https://www.psychotherapie.pro/over-ecp
+            - paragraph [ref=e125]:
+              - strong [ref=e126]: "Aangesloten beroepsverenigingen:"
+            - figure [ref=e128]:
+              - link [ref=e129] [cursor=pointer]:
+                - /url: https://www.europsyche.org/
+            - paragraph [ref=e131]:
+              - text: European Association for Psychotherapy ( EAP)
+              - emphasis [ref=e132]:
+                - text: Meer info
+                - link "klik hier" [ref=e133] [cursor=pointer]:
+                  - /url: https://www.europsyche.org/
+            - figure [ref=e135]:
+              - link [ref=e136] [cursor=pointer]:
+                - /url: https://vit-therapeuten.nl/
+            - paragraph [ref=e139]: Vereniging Integraal Therapeuten (VIT)
+            - figure [ref=e141]:
+              - link [ref=e142] [cursor=pointer]:
+                - /url: https://www.scag.nl/
+            - paragraph [ref=e144]:
+              - text: Stichting Complementaire en Alternatieve Gezondheidszorg
+              - text: "S.C.A.G.: lid nummer: 11379"
+            - figure [ref=e147]
+            - paragraph [ref=e149]: een vrije zorgkeuze
+            - figure [ref=e151]:
+              - link [ref=e152] [cursor=pointer]:
+                - /url: https://nvecp.nl/
+            - paragraph [ref=e154]:
+              - link "Kwaliteitregister psychotherapie" [ref=e155] [cursor=pointer]:
+                - /url: https://nvecp.nl/
+            - figure [ref=e157]:
+              - link [ref=e158] [cursor=pointer]:
+                - /url: https://www.emdri.nl/
+            - paragraph [ref=e160]:
+              - text: EMDR-i Netwerk Nederland (ENN)
+              - text: EMDR-i staat voor 'integratieve psychotherapie'.
+              - text: Therapeuten die gespecialiseerd zijn in integratieve psychotherapie zijn in staat om om een klacht samenhangend te beoordelen en kunnen op basis daarvan de cliënt begeleiden in het adequaat en duurzaam oplossen van die klacht. Daartoe beschikt de integratieve therapeut over verschillende behandelvormen, waarvan EMDR tot de mogelijkheden behoort.
+            - paragraph [ref=e162]:
+              - strong [ref=e163]: "Alsook aangesloten bij:"
+              - link [ref=e164] [cursor=pointer]:
+                - /url: https://www.therapiepsycholoog.com/therapie-purmerend-mari-louise
+              - link [ref=e165] [cursor=pointer]:
+                - /url: https://www.relatietherapeuten.net/relatietherapie-purmerend-psychotherapie
+              - link [ref=e166] [cursor=pointer]:
+                - /url: https://www.angstfobietherapie.com/psychotherapie-purmerend
+            - generic:
+              - paragraph
+            - paragraph [ref=e168]
+      - contentinfo [ref=e169]:
+        - generic [ref=e171]:
+          - paragraph [ref=e174]:
+            - link "© 2024 Cookie-beleid, Privacy Verklaring, Algemene Voorwaarden" [ref=e175] [cursor=pointer]:
+              - /url: https://centrumvoortherapie.nl/privacy-verklaring-2/
+          - paragraph [ref=e178]:
+            - link "Disclaimer" [ref=e179] [cursor=pointer]:
+              - /url: https://centrumvoortherapie.nl/disclaimer/
+          - paragraph [ref=e182]:
+            - text: Webdesign by
+            - link "MK Creative Studios" [ref=e183] [cursor=pointer]:
+              - /url: https://mkcreativestudios.com/
+        - generic [ref=e186]: "centrumvoortherapie@gmail.com | © 2024 Centrum voor Therapie | Praktijk: Tuinstee 61, 1446 HH Purmerend, Nederland | KvK nr 56879717"
+  - img [ref=e190] [cursor=pointer]

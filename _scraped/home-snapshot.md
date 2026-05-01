@@ -1,0 +1,235 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - text: 06 30682579
+      - link "centrumvoortherapie@gmail.com" [ref=e6] [cursor=pointer]:
+        - /url: mailto:centrumvoortherapie@gmail.com
+    - banner [ref=e7]:
+      - generic [ref=e8]:
+        - generic:
+          - link "Centrum voor therapie":
+            - /url: https://centrumvoortherapie.nl/
+            - img "Centrum voor therapie"
+        - generic [ref=e9]:
+          - navigation [ref=e10]:
+            - list [ref=e11]:
+              - listitem [ref=e12]:
+                - link "HOME" [ref=e13] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/Home-15-11-2021/
+              - listitem [ref=e14]:
+                - link "PSYCHOTHERAPIE 3" [ref=e15] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e16]:
+                - link "THERAPIE 3" [ref=e17] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e18]:
+                - link "PRAKTIJKRUIMTE" [ref=e19] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/praktijkruimte/
+              - listitem [ref=e20]:
+                - link "OVER MIJ" [ref=e21] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/over-mari-louise-fongers/
+              - listitem [ref=e22]:
+                - link "CONTACT" [ref=e23] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/contact/
+          - text: a
+    - generic [ref=e24]:
+      - article [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e39]:
+            - paragraph [ref=e40]
+            - paragraph [ref=e41]:
+              - text: “We willen allemaal lekker functioneren in ons leven & meestal lukt ons dat ook aardig maar soms lopen we tegen dingen aan waarbij we wel wat hulp kunnen gebruiken.”
+              - text: Ben je op zoek naar psychologische hulp?
+          - generic [ref=e42]:
+            - generic [ref=e47]:
+              - generic [ref=e49]:
+                - paragraph [ref=e50]
+                - paragraph [ref=e51]:
+                  - text: Waar kan ik jou bij helpen?
+                  - generic [ref=e52]:
+                    - text: Ik lever maatwerk, speciaal afgestemd op wat jij nodig hebt. Samen ontdekken wat jij wilt bereiken én daar concrete stappen in maken.
+                    - text: In alle veiligheid werken aan jezelf. Jij staat centraal!
+                    - text: Respectvol, met een open blik en ook wel met een vleugje luchtige humor.
+              - paragraph [ref=e55]: Mari Louise Fongers
+            - generic [ref=e57]:
+              - generic [ref=e59]:
+                - heading "Psychologische hulp" [level=1] [ref=e60]:
+                  - generic [ref=e61]: Psychologische hulp
+                - paragraph [ref=e62]: Afgestudeerd in Social Psychology en Integratieve Psychotherapie met bijna 20 jaar praktijk ervaring omschrijven cliënten mijn stijl van werken als betrokken, warm, vol aandacht, onderzoekend en respectvol, waarbij het ontwikkelingstempo van de cliënt vóórop staat.
+                - paragraph [ref=e63]: Ik maak gebruik van verscheidene psychologische stromingen én van reeds aanwezige hulpbronnen zodat je een volledig persoonlijke en op maat gemaakte begeleiding krijgt.
+                - paragraph [ref=e64]
+                - heading "Integratieve psychotherapie" [level=1] [ref=e65]
+                - paragraph [ref=e66]: "Je zult snel merken dat dat werkt: je zult je anders gaan voelen, anders gaan denken en je weer fijn gaan voelen!"
+                - paragraph [ref=e67]: Heb je begeleiding nodig?
+                - paragraph [ref=e68]: Neem gerust contact met mij op!
+                - paragraph [ref=e69]:
+                  - generic [ref=e70]: ✔ Snel een eerste afspraak
+                  - generic [ref=e71]: ✔ Zonder verwijsbrief
+                  - generic [ref=e72]: ✔ Geen eigen-risico
+                - paragraph [ref=e73]: Je bent van harte welkom in mijn praktijk Centrum voor Therapie voor therapeutische begeleiding.
+              - link "Klik hier voor meer info voor Integratieve psychotherapie 5" [ref=e75] [cursor=pointer]:
+                - /url: https://centrumvoortherapie.nl/integratieve-psychotherapie/
+            - heading "Herken jij iets van de volgende klachten?" [level=1] [ref=e80]:
+              - generic [ref=e81]: Herken jij iets van de volgende klachten?
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - generic [ref=e87] [cursor=pointer]:
+                  - heading "Stress" [level=4] [ref=e88]
+                  - list [ref=e89]:
+                    - listitem [ref=e90]: Vermoeidheid
+                    - listitem [ref=e91]: Verlaagde weerstand, sneller ziek
+                    - listitem [ref=e92]: Hartkloppingen
+                    - listitem [ref=e93]: Toename van slechte leefgewoonten (roken, drinken, ongezond eten)
+                    - listitem [ref=e94]: Slaapproblemen
+                    - listitem [ref=e95]: Piekeren
+                    - listitem [ref=e96]: Aanhoudend gevoel van gespannenheid
+                    - listitem [ref=e97]: Prikkelbaarheid
+                - link "LEES MEER OVER STRESS 5" [ref=e99] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/stress/
+              - generic [ref=e100]:
+                - generic [ref=e104] [cursor=pointer]:
+                  - heading "(Faal) Angst" [level=4] [ref=e105]
+                  - list [ref=e106]:
+                    - listitem [ref=e107]: Situaties vermijden of uitstellen
+                    - listitem [ref=e108]: Piekeren
+                    - listitem [ref=e109]: Situaties in ons hoofd bedreigend maken
+                    - listitem [ref=e110]: Onrust
+                    - listitem [ref=e111]: Lichamelijke klachten zoals duizeligheid, een snelle ademhaling, trillen, hoofdpijn en wazig zien
+                    - listitem [ref=e112]: Paniekaanval
+                - link "LEES MEER OVER ANGST 5" [ref=e115] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/angst-faalangst/
+              - generic [ref=e116]:
+                - generic [ref=e120] [cursor=pointer]:
+                  - heading "Burn out" [level=4] [ref=e121]
+                  - list [ref=e122]:
+                    - listitem [ref=e123]: Slaapproblemen
+                    - listitem [ref=e124]: (meer) piekeren
+                    - listitem [ref=e125]: Onrustig voelen
+                    - listitem [ref=e126]: Gespannenheid
+                    - listitem [ref=e127]: Een korter lontje
+                    - listitem [ref=e128]: Vermoeidheid
+                    - listitem [ref=e129]: Hoge hartslag
+                    - listitem [ref=e130]: Verminderde weerstand
+                - link "LEES MEER OVER BURNOUT 5" [ref=e133] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/burn-out/
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - generic [ref=e139] [cursor=pointer]:
+                  - heading "Depressie" [level=4] [ref=e140]
+                  - list [ref=e141]:
+                    - listitem [ref=e142]: Sombere stemming
+                    - listitem [ref=e143]: (Hevige) stemmingswisselingen
+                    - listitem [ref=e144]: Vermijden sociale contacten
+                    - listitem [ref=e145]: Nergens meer plezier aan beleven
+                    - listitem [ref=e146]: (meer) piekeren
+                    - listitem [ref=e147]: Onrustig voelen
+                    - listitem [ref=e148]: Angstklachten
+                    - listitem [ref=e149]: Gespannenheid
+                    - listitem [ref=e150]: Een korter lontje
+                    - listitem [ref=e151]: Vermoeidheid
+                    - listitem [ref=e152]: Slaapstoornissen
+                    - listitem [ref=e153]: Interesseverlies
+                    - listitem [ref=e154]: Besluiteloosheid
+                    - listitem [ref=e155]: Denken aan de dood
+                    - listitem [ref=e156]: Lichamelijke klachten
+                    - listitem [ref=e157]: Libidoverlies
+                - link "LEES MEER OVER DEPRESSIE 5" [ref=e159] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/somberheid-depressi/
+              - generic [ref=e160]:
+                - generic [ref=e164] [cursor=pointer]:
+                  - heading "Chronische Pijn" [level=4] [ref=e165]
+                  - list [ref=e166]:
+                    - listitem [ref=e167]: Aanhoudende pijn (langer dan drie maanden aanhoudt )of die regelmatig terugkomt
+                    - listitem [ref=e168]: Geen duidelijke lichamelijke oorzaak gevonden
+                    - listitem [ref=e169]: Het pijnniveau kan variëren van licht tot zeer ernstig
+                    - listitem [ref=e170]: Chronisch door veranderingen in het centrale zenuwstelsel
+                    - listitem [ref=e171]: De pijn is vaak moeilijk te verlichten
+                    - listitem [ref=e172]: Een grote impact op het welzijn
+                    - listitem [ref=e173]: Kan leiden tot een burn-out of depressie
+                - link "LEES MEER OVER CHRONISCHE PIJN 5" [ref=e176] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/chronische-pijn/
+              - generic [ref=e177]:
+                - generic [ref=e181] [cursor=pointer]:
+                  - heading "Trauma’s" [level=4] [ref=e182]
+                  - list [ref=e183]:
+                    - listitem [ref=e184]: Negatieve gedachten
+                    - listitem [ref=e185]: Angsten
+                    - listitem [ref=e186]: Herbelevingen
+                    - listitem [ref=e187]: Stressklachten, alert-/waakzaamheid
+                    - listitem [ref=e188]: Vermijdingsreacties
+                    - listitem [ref=e189]: Onrust
+                    - listitem [ref=e190]: Slaapproblemen
+                    - listitem [ref=e191]: Schuld- of schaamtegevoelens
+                    - listitem [ref=e192]: Verminderd zelfbeeld
+                    - listitem [ref=e193]: Somberheid
+                - link "LEES MEER OVER TRAUMA'S 5" [ref=e196] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/trauma/
+            - generic [ref=e200]:
+              - heading "Wil jij weer in je kracht staan en een fijn leven kunnen leven?" [level=1] [ref=e201]:
+                - generic [ref=e202]: Wil jij weer in je kracht staan en een fijn leven kunnen leven?
+              - paragraph [ref=e203]
+              - paragraph [ref=e204]:
+                - generic [ref=e205]:
+                  - text: Ik heb ervaring met Psychologisch begeleiden van mensen die tegen dingen, zoals hierboven vermeld staan, in het leven aanlopen.
+                  - text: Sinds de start van mijn praktijk heb ik veel ervaring opgedaan in het therapeutisch begeleiden van mensen met een diversiteit aan hulpvragen, en deze telkens succesvol mogen afronden.
+                  - text: Enkele jaren heb ik tevens gewerkt in een revalidatiecentrum waarbij omgaan met chronische pijn centraal staat.
+                  - text: Elke keer weer geniet ik intens van het mogen bijdragen aan het zelfhelende vermogen van de mens; keer op keer bemerk ik weer dat Psychotherapie en Coaching de mens dáár brengt waar wij willen zijn.
+            - generic [ref=e206]:
+              - generic [ref=e207]:
+                - generic [ref=e209]:
+                  - heading [level=2] [ref=e210]
+                  - heading [level=2] [ref=e211]
+                  - heading [level=2] [ref=e212]
+                  - heading "Twijfel je of therapie iets voor je is? Of wil je gewoon even iets vragen?" [level=2] [ref=e213]
+                  - paragraph [ref=e214]:
+                    - text: Je hoeft het niet alleen uit te zoeken.
+                    - text: Laat hieronder je gegevens achter of stuur mij gerust een bericht via het WhatsApp-icoontje onderaan deze pagina.
+                    - text: Ik antwoord je zo snel mogelijk en denk met je mee.
+                  - paragraph [ref=e215]:
+                    - emphasis [ref=e216]:
+                      - text: Lees vóór contact de
+                      - link "privacy verklaring" [ref=e217] [cursor=pointer]:
+                        - /url: https://centrumvoortherapie.nl/privacy-verklaring-2/
+                    - emphasis [ref=e218]: Annuleren kan tot minimaal 48 uur van tevoren. Daarna wordt de gereserveerde sessie in rekening gebracht.
+                - generic [ref=e221] [cursor=pointer]:
+                  - paragraph [ref=e222]:
+                    - textbox "Naam" [ref=e223]
+                  - paragraph [ref=e224]:
+                    - textbox "Telefoon" [ref=e225]
+                  - paragraph [ref=e226]:
+                    - textbox "Email" [ref=e227]:
+                      - /placeholder: "Email "
+                  - paragraph [ref=e228]:
+                    - textbox "Bericht" [ref=e229]
+                  - paragraph [ref=e230]:
+                    - generic [ref=e231]:
+                      - generic [ref=e232]: Klik hier om ons Privacy Beleid / Algemene voowaarden te lezen | Verplicht aan te vinken vooraleer u verstuurd
+                      - generic [ref=e235]: Ja, ik heb het Privacy Beleid & de Algemene Voorwaarden gelezen
+                  - button "Verstuur 5" [ref=e238]
+              - generic [ref=e239]:
+                - generic [ref=e241]:
+                  - heading "Bel mij" [level=3] [ref=e242]
+                  - paragraph [ref=e243]: 06 30682579
+                - generic [ref=e245]:
+                  - heading "Email" [level=3] [ref=e246]
+                  - paragraph [ref=e247]: centrumvoortherapie@gmail.com
+                - generic [ref=e249]:
+                  - heading "Adres" [level=3] [ref=e250]
+                  - paragraph [ref=e251]:
+                    - text: Centrum voor Therapie
+                    - text: Tuinstee 61
+                    - text: 1446 HH Purmerend
+      - contentinfo [ref=e252]:
+        - generic [ref=e254]:
+          - paragraph [ref=e257]:
+            - link "© 2024 Cookie-beleid, Privacy Verklaring, Algemene Voorwaarden" [ref=e258] [cursor=pointer]:
+              - /url: https://centrumvoortherapie.nl/privacy-verklaring-2/
+          - paragraph [ref=e261]:
+            - link "Disclaimer" [ref=e262] [cursor=pointer]:
+              - /url: https://centrumvoortherapie.nl/disclaimer/
+          - paragraph [ref=e265]:
+            - text: Webdesign by
+            - link "MK Creative Studios" [ref=e266] [cursor=pointer]:
+              - /url: https://mkcreativestudios.com/
+        - generic [ref=e269]: "centrumvoortherapie@gmail.com | © 2024 Centrum voor Therapie | Praktijk: Tuinstee 61, 1446 HH Purmerend, Nederland | KvK nr 56879717"
+  - img [ref=e273] [cursor=pointer]

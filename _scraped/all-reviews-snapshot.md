@@ -1,0 +1,544 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-NL
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Centrum voor Therapie Reviews Centrum voor Therapie Reviews
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fsca_esv%3D616bd5aed7a8ec96%26hl%3Den-NL%26uds%3DALYpb_ncDc7jTlmw6Mmq7NjuX5c-w0dpiECi0rZKSkWDtV3wdxrkcAnNZIszHpbHuYy3pYqePJOCvwGUwOXSJFUUoTea_HvT07DmLtypuYsi_uOF4KE13Lf2Nq0GyI-60j7Q_G7LQkfpV-2hOddqVyBF9q7P9cQh9Wq4XIQCjrM848MmguJjD8I%26q%3DCentrum%2Bvoor%2BTherapie%2BReviews%26si%3DAL3DRZFIhG6pAqfNLal55wUTwygCG0fClF3UxiOmgw9Hq7nbWS3CP7LfXPgrtCF9UX0Nyu2_Plp8FglBEeUPrGLGHVtX5GvpwZF9XqC09GUteEH3kXVMENF5BF0wfMSYZKPKbTLLS7hnk_8bQQIP6IFzUt-TXUzl8Q%253D%253D%26sa%3DX%26ved%3D2ahUKEwjT0NaZu5aUAxUn8LsIHTDgEXEQ_4MLegQILBAQ%26biw%3D1440%26bih%3D760%26dpr%3D2&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Centrum+voor+Therapie+Reviews&sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-w0dpiECi0rZKSkWDtV3wdxrkcAnNZIszHpbHuYy3pYqePJOCvwGUwOXSJFUUoTea_HvT07DmLtypuYsi_uOF4KE13Lf2Nq0GyI-60j7Q_G7LQkfpV-2hOddqVyBF9q7P9cQh9Wq4XIQCjrM848MmguJjD8I&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQA6qGJdCLcK5JzcMkbtdHcTsMYcBVZN06MDeV_ShfwESHK6zPyD6skGJb72b1Hb1UPgLV139LhcXb5xzvyTncJYN3nmV8iDaMzrbgVbNiXnt2_C3fA&aep=1&ntc=1&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ2J8OegQIBxAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Short videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-w0dpiECi0rZKSkWDtV3wdxrkcAnNZIszHpbHuYy3pYqePJOCvwGUwOXSJFUUoTea_HvT07DmLtypuYsi_uOF4KE13Lf2Nq0GyI-60j7Q_G7LQkfpV-2hOddqVyBF9q7P9cQh9Wq4XIQCjrM848MmguJjD8I&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQA6qGJdCLcK5JzcMkbtdHcTsMYcBVZN06MDeV_ShfwESHK6zPyD6skGJb72b1Hb1UPgLV139LhcXb5xzvyTncJYN3nmV8iDaMzrbgVbNiXnt2_C3fA&q=Centrum+voor+Therapie+Reviews&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQs6gLegQIEBAB
+              - generic [ref=e91]: Short videos
+          - listitem [ref=e92]:
+            - link "Images" [ref=e93] [cursor=pointer]:
+              - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-w0dpiECi0rZKSkWDtV3wdxrkcAnNZIszHpbHuYy3pYqePJOCvwGUwOXSJFUUoTea_HvT07DmLtypuYsi_uOF4KE13Lf2Nq0GyI-60j7Q_G7LQkfpV-2hOddqVyBF9q7P9cQh9Wq4XIQCjrM848MmguJjD8I&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQA6qGJdCLcK5JzcMkbtdHcTsMYcBVZN06MDeV_ShfwESHK6zPyD6skGJb72b1Hb1UPgLV139LhcXb5xzvyTncJYN3nmV8iDaMzrbgVbNiXnt2_C3fA&q=Centrum+voor+Therapie+Reviews&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQtKgLegQIEhAB
+              - generic [ref=e95]: Images
+          - listitem [ref=e96]:
+            - link "Videos" [ref=e97] [cursor=pointer]:
+              - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-w0dpiECi0rZKSkWDtV3wdxrkcAnNZIszHpbHuYy3pYqePJOCvwGUwOXSJFUUoTea_HvT07DmLtypuYsi_uOF4KE13Lf2Nq0GyI-60j7Q_G7LQkfpV-2hOddqVyBF9q7P9cQh9Wq4XIQCjrM848MmguJjD8I&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQA6qGJdCLcK5JzcMkbtdHcTsMYcBVZN06MDeV_ShfwESHK6zPyD6skGJb72b1Hb1UPgLV139LhcXb5xzvyTncJYN3nmV8iDaMzrbgVbNiXnt2_C3fA&q=Centrum+voor+Therapie+Reviews&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQtKgLegQIExAB
+              - generic [ref=e99]: Videos
+          - listitem [ref=e100]:
+            - link "News" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Centrum+voor+Therapie+Reviews&si=AL3DRZFIhG6pAqfNLal55wUTwygCG0fClF3UxiOmgw9Hq7nbWS3CP7LfXPgrtCF9UX0Nyu2_Plp8FglBEeUPrGLGHVtX5GvpwZF9XqC09GUteEH3kXVMENF5BF0wfMSYZKPKbTLLS7hnk_8bQQIP6IFzUt-TXUzl8Q%3D%3D&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQA6qGJdCLcK5JzcMkbtdHcTsMYcBVZN06MDeV_ShfwESHK6zPyD6skGJb72b1Hb1UPgLV139LhcXb5xzvyTncJYN3nmV8iDaMzrbgVbNiXnt2_C3fA&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ0pQJegQIDxAB
+              - generic [ref=e103]: News
+          - listitem [ref=e104]:
+            - link "Books" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Centrum+voor+Therapie+Reviews&si=AL3DRZFIhG6pAqfNLal55wUTwygCG0fClF3UxiOmgw9Hq7nbWS3CP7LfXPgrtCF9UX0Nyu2_Plp8FglBEeUPrGLGHVtX5GvpwZF9XqC09GUteEH3kXVMENF5BF0wfMSYZKPKbTLLS7hnk_8bQQIP6IFzUt-TXUzl8Q%3D%3D&udm=36&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQA6qGJdCLcK5JzcMkbtdHcTsMYcBVZN06MDeV_ShfwESHK6zPyD6skGJb72b1Hb1UPgLV139LhcXb5xzvyTncJYN3nmV8iDaMzrbgVbNiXnt2_C3fA&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ0pQJegQIDBAB
+              - generic [ref=e107]: Books
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - navigation [ref=e125]:
+      - navigation [ref=e128]:
+        - list [ref=e135]:
+          - listitem [ref=e137]:
+            - link "Remove Reviews" [ref=e138] [cursor=pointer]:
+              - /url: /search?sca_esv=616bd5aed7a8ec96&biw=1440&bih=760&q=Centrum+voor+Therapie+Reviews&hl=en-NL&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQkc0JKAB6BAgOEAE&ictx=1
+              - generic [ref=e139]:
+                - img [ref=e142]
+                - generic [ref=e144]: Reviews
+    - heading "Search Results" [level=1] [ref=e145]
+    - main [ref=e151]:
+      - tabpanel [ref=e165]:
+        - generic [ref=e169]:
+          - generic [ref=e174]:
+            - generic [ref=e181]:
+              - link "See outside" [ref=e187] [cursor=pointer]:
+                - /url: /local/place/fid/0x47c606ab0d9d309d:0x92782142ca265d60/photosphere?iu=https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid%3DJruqcAKdGptvpoKF8qSsEg%26cb_client%3Dsearch.gws-prod.gps%26yaw%3D308.38165%26pitch%3D0%26thumbfov%3D100%26w%3D0%26h%3D0&ik=CAISFkpydXFjQUtkR3B0dnBvS0Y4cVNzRWc%3D&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQpx96BAgcEAU
+                - generic [ref=e189]: See outside
+              - generic [ref=e191]:
+                - img "Map of Centrum voor Therapie" [ref=e195]
+                - img "Map of Centrum voor Therapie" [ref=e198]
+            - generic [ref=e201]:
+              - heading "Centrum voor Therapie" [level=2] [ref=e204]
+              - generic [ref=e205]:
+                - generic [ref=e207]:
+                  - img "Rated 4,9 out of 5, 11 user reviews" [ref=e208]:
+                    - text: 4,9
+                    - img [ref=e209]
+                    - text: (11)
+                  - button "More info" [ref=e214] [cursor=pointer]:
+                    - generic "More info" [ref=e215]:
+                      - img [ref=e216]
+                  - text: Psychologist in Purmerend
+                - button "More options for Centrum voor Therapie" [ref=e223] [cursor=pointer]:
+                  - img "More options for Centrum voor Therapie" [ref=e224]:
+                    - img [ref=e226]
+          - generic [ref=e231]:
+            - generic [ref=e240]:
+              - link "Website" [ref=e242] [cursor=pointer]:
+                - /url: http://www.centrumvoortherapie.nl/
+                - generic [ref=e243]:
+                  - img [ref=e245]
+                  - generic [ref=e247]: Website
+              - link "Directions" [ref=e249]:
+                - generic [ref=e250] [cursor=pointer]:
+                  - img [ref=e252]
+                  - generic [ref=e257]: Directions
+              - link "Reviews" [ref=e259] [cursor=pointer]:
+                - /url: /search?sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&si=AL3DRZFIhG6pAqfNLal55wUTwygCG0fClF3UxiOmgw9Hq7nbWS3CP7LfXPgrtCF9UX0Nyu2_Plp8FglBEeUPrGLGHVtX5GvpwZF9XqC09GUteEH3kXVMENF5BF0wfMSYZKPKbTLLS7hnk_8bQQIP6IFzUt-TXUzl8Q%3D%3D&q=Centrum+voor+Therapie+Reviews&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ0bkNegQIIhAH
+                - generic [ref=e260]:
+                  - img [ref=e262]
+                  - generic [ref=e264]: Reviews
+              - button "Save Centrum voor Therapie to collection" [ref=e269] [cursor=pointer]:
+                - img [ref=e270]
+                - generic [ref=e272]: Save
+              - button "Share" [ref=e275] [cursor=pointer]:
+                - generic [ref=e276]:
+                  - img [ref=e278]
+                  - generic [ref=e280]: Share
+              - button "Call" [ref=e282] [cursor=pointer]:
+                - generic [ref=e283]:
+                  - img [ref=e285]
+                  - generic [ref=e287]: Call
+            - separator [ref=e288]
+          - generic [ref=e292]:
+            - generic [ref=e294]:
+              - generic [ref=e296]:
+                - generic [ref=e297]:
+                  - link "Address" [ref=e298] [cursor=pointer]:
+                    - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=centrum+voor+therapie+purmerend+address&ludocid=10554222297485827424&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ6BN6BAglEAI
+                  - text: ":"
+                - link "Tuinstee 61, 1446 HH Purmerend" [ref=e301] [cursor=pointer]:
+                  - /url: /maps/place//data=!4m2!3m1!1s0x47c606ab0d9d309d:0x92782142ca265d60?sa=X&ved=1t:8290&hl=en-NL&ictx=111
+              - generic [ref=e304]:
+                - generic [ref=e305]: "Phone:"
+                - link "Call phone number 06 30682579" [ref=e308] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 06 30682579
+              - generic [ref=e309]:
+                - generic [ref=e310]:
+                  - link "Hours" [ref=e311] [cursor=pointer]:
+                    - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=centrum+voor+therapie+purmerend+hours&ludocid=10554222297485827424&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ6BN6BAgkEAI
+                  - text: ":"
+                - button "Closed · Opens 9 am Fri" [ref=e313]:
+                  - generic [ref=e319]: Closed · Opens 9 am Fri
+              - generic [ref=e323]:
+                - generic [ref=e324]: "Province:"
+                - link "North Holland" [ref=e327] [cursor=pointer]:
+                  - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=North+Holland&si=AL3DRZHmwLjWhgnaPB3UTu10R6S5qNLXiQiKMeezfKyB1FMsRo3yW17ZrNa1VC2XjAQELI9QCMUb8QHrWFUUl4Nkifz5uxKE-Rma7V7Ak7LySSCnmvAMWnnrYlsIMhocRUagawkOhQNJs9Me0Jo_Hom08ds6GC8MNgQu_8DTLS4Y7k2XFEsDNIUTMdF52JXjfNVJbVFDpxV8&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQmxN6BAgnEAI
+              - button "Suggest an edit" [ref=e334] [cursor=pointer]
+            - separator [ref=e335]
+          - generic [ref=e339]:
+            - generic [ref=e344]:
+              - generic [ref=e345]:
+                - heading "From Centrum voor Therapie" [level=3] [ref=e346]
+                - button "Report description" [ref=e348]:
+                  - img [ref=e349]
+              - generic [ref=e351]: "\"Psychologische hulpverlening\""
+            - separator [ref=e352]
+          - generic [ref=e358]:
+            - heading "Profiles" [level=3] [ref=e359]
+            - link "Facebook" [ref=e364] [cursor=pointer]:
+              - /url: https://www.facebook.com/p/Centrum-voor-Therapie-100063795840483
+              - generic [ref=e370]: Facebook
+          - generic [ref=e374]:
+            - heading "Reviews" [level=2] [ref=e377]
+            - generic [ref=e379]:
+              - generic [ref=e382]:
+                - generic [ref=e384]:
+                  - generic [ref=e385]: Reviews aren't verified
+                  - button "More info" [ref=e388] [cursor=pointer]:
+                    - img [ref=e390]
+                - generic [ref=e395]:
+                  - link "Google 4,9 out of 5 11 reviews" [ref=e396] [cursor=pointer]:
+                    - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Centrum+voor+Therapie+Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDA1NTECAktzEwtTCyNzEyOTDYyMrxhlnVPzSopKcxXK8vOLFEIyUosSCzJTFYJSyzJTy4sXseKXBwBddONlWwAAAA&rldimm=10554222297485827424&tbm=lcl&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ9fQKegQIURAG#lkt=LocalPoiReviews
+                    - generic [ref=e397]:
+                      - generic [ref=e398]:
+                        - generic [ref=e401]: Google
+                        - img [ref=e403]
+                      - list [ref=e405]:
+                        - listitem "4,9 out of 5" [ref=e406]: 4,9/5
+                        - listitem [ref=e407]: 11 reviews
+                  - link "Infobel 4,9 out of 5 9 reviews" [ref=e408] [cursor=pointer]:
+                    - /url: https://lokaal.infobel.nl/NL103032375/centrum_voor_therapie-purmerend.html
+                    - generic [ref=e409]:
+                      - generic [ref=e410]:
+                        - generic [ref=e413]: Infobel
+                        - img [ref=e415]
+                      - list [ref=e417]:
+                        - listitem "4,9 out of 5" [ref=e418]: 4,9/5
+                        - listitem [ref=e419]: 9 reviews
+                - button "Add a review" [ref=e421]:
+                  - generic [ref=e423] [cursor=pointer]:
+                    - img [ref=e427]
+                    - text: Add a review
+              - generic [ref=e433]:
+                - generic [ref=e434]:
+                  - generic [ref=e435]:
+                    - generic [ref=e436]:
+                      - generic [ref=e440]:
+                        - generic [ref=e441]: Mar Bongaard
+                        - generic [ref=e442]:
+                          - text: Review from
+                          - link "Google" [ref=e443] [cursor=pointer]:
+                            - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Centrum%20voor%20Therapie%20Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDA1NTECAktzEwtTCyNzEyOTDYyMrxhlnVPzSopKcxXK8vOLFEIyUosSCzJTFYJSyzJTy4sXseKXBwBddONlWwAAAA&rldimm=10554222297485827424&tbm=lcl&ved=0CAYQ5foLahcKEwigqfKnu5aUAxUAAAAAHQAAAAAQBQ#lkt=LocalPoiReviews&arid=ChZDSUhNMG9nS0VMelE2ZWYweHZxeU1nEAE
+                            - text: Google
+                      - button "Review options for review by Mar Bongaard" [ref=e450] [cursor=pointer]:
+                        - img [ref=e451]
+                    - list [ref=e453]:
+                      - listitem "5 out of 5" [ref=e454]: 5/5
+                      - listitem [ref=e455]:
+                        - separator [ref=e456]: ·
+                        - text: 10 months ago
+                      - listitem
+                    - link "Mari Louise is een therapeute professioneel eerlijk en altijd met respect. Zij heeft goede inzichten en kennis, door haar expertise gaf zij mij het gevoel van … See more for this review" [ref=e457] [cursor=pointer]:
+                      - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Centrum%20voor%20Therapie%20Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDA1NTECAktzEwtTCyNzEyOTDYyMrxhlnVPzSopKcxXK8vOLFEIyUosSCzJTFYJSyzJTy4sXseKXBwBddONlWwAAAA&rldimm=10554222297485827424&tbm=lcl&ved=0CAcQ5foLahcKEwigqfKnu5aUAxUAAAAAHQAAAAAQBQ#lkt=LocalPoiReviews&arid=ChZDSUhNMG9nS0VMelE2ZWYweHZxeU1nEAE
+                      - generic [ref=e459]:
+                        - text: Mari Louise is een therapeute professioneel eerlijk en altijd met respect. Zij heeft goede inzichten en kennis, door haar expertise gaf zij mij het gevoel van …
+                        - button "See more for this review" [ref=e461]: More
+                  - generic [ref=e463]:
+                    - generic [ref=e464]:
+                      - generic [ref=e468]:
+                        - generic [ref=e469]: Cornelis de Boer
+                        - generic [ref=e470]:
+                          - text: Review from
+                          - link "Google" [ref=e471] [cursor=pointer]:
+                            - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Centrum%20voor%20Therapie%20Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDA1NTECAktzEwtTCyNzEyOTDYyMrxhlnVPzSopKcxXK8vOLFEIyUosSCzJTFYJSyzJTy4sXseKXBwBddONlWwAAAA&rldimm=10554222297485827424&tbm=lcl&ved=0CAsQ5foLahcKEwigqfKnu5aUAxUAAAAAHQAAAAAQBQ#lkt=LocalPoiReviews&arid=Ci9DQUlRQUNvZENodHljRjlvT2pNd1NuWnpha0pyYlVadGRUUmtiemR1WkdSR1dWRRAB
+                            - text: Google
+                      - button "Review options for review by Cornelis de Boer" [ref=e478] [cursor=pointer]:
+                        - img [ref=e479]
+                    - list [ref=e481]:
+                      - listitem "5 out of 5" [ref=e482]: 5/5
+                      - listitem [ref=e483]:
+                        - separator [ref=e484]: ·
+                        - text: 7 months ago
+                      - listitem
+                    - link "Een hele wijze vrouw waar je jezelf gelijk op je gemak voelt en vertrouwd Zoveel inzichten en wijsheid gekregen Kan iedereen Mari Louise aanraden" [ref=e485] [cursor=pointer]:
+                      - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Centrum%20voor%20Therapie%20Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDA1NTECAktzEwtTCyNzEyOTDYyMrxhlnVPzSopKcxXK8vOLFEIyUosSCzJTFYJSyzJTy4sXseKXBwBddONlWwAAAA&rldimm=10554222297485827424&tbm=lcl&ved=0CAwQ5foLahcKEwigqfKnu5aUAxUAAAAAHQAAAAAQBQ#lkt=LocalPoiReviews&arid=Ci9DQUlRQUNvZENodHljRjlvT2pNd1NuWnpha0pyYlVadGRUUmtiemR1WkdSR1dWRRAB
+                      - generic [ref=e487]:
+                        - text: Een hele wijze vrouw waar je jezelf gelijk op je gemak voelt en vertrouwd
+                        - text: Zoveel inzichten en wijsheid gekregen
+                        - text: Kan iedereen Mari Louise aanraden
+                  - generic [ref=e489]:
+                    - generic [ref=e490]:
+                      - generic [ref=e494]:
+                        - generic [ref=e495]: Janine Snieder
+                        - generic [ref=e496]:
+                          - text: Review from
+                          - link "Google" [ref=e497] [cursor=pointer]:
+                            - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Centrum%20voor%20Therapie%20Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDA1NTECAktzEwtTCyNzEyOTDYyMrxhlnVPzSopKcxXK8vOLFEIyUosSCzJTFYJSyzJTy4sXseKXBwBddONlWwAAAA&rldimm=10554222297485827424&tbm=lcl&ved=0CBAQ5foLahcKEwigqfKnu5aUAxUAAAAAHQAAAAAQBQ#lkt=LocalPoiReviews&arid=ChdDSUhNMG9nS0VJQ0FnSURnbU0tN193RRAB
+                            - text: Google
+                      - button "Review options for review by Janine Snieder" [ref=e504] [cursor=pointer]:
+                        - img [ref=e505]
+                    - list [ref=e507]:
+                      - listitem "5 out of 5" [ref=e508]: 5/5
+                      - listitem [ref=e509]:
+                        - separator [ref=e510]: ·
+                        - text: 9 years ago
+                      - listitem
+                    - link "De therapie die ik inmiddels 9 jaar geleden heb gevolgd en afgerond is de beste investering geweest die ik ooit heb gedaan. … See more for this review" [ref=e511] [cursor=pointer]:
+                      - /url: /search?sa=X&sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Centrum%20voor%20Therapie%20Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDA1NTECAktzEwtTCyNzEyOTDYyMrxhlnVPzSopKcxXK8vOLFEIyUosSCzJTFYJSyzJTy4sXseKXBwBddONlWwAAAA&rldimm=10554222297485827424&tbm=lcl&ved=0CBEQ5foLahcKEwigqfKnu5aUAxUAAAAAHQAAAAAQBQ#lkt=LocalPoiReviews&arid=ChdDSUhNMG9nS0VJQ0FnSURnbU0tN193RRAB
+                      - generic [ref=e513]:
+                        - text: De therapie die ik inmiddels 9 jaar geleden heb gevolgd en afgerond is de beste investering geweest die ik ooit heb gedaan. …
+                        - button "See more for this review" [ref=e515]: More
+                - button "More user reviews" [ref=e518] [cursor=pointer]:
+                  - separator [ref=e519]
+                  - generic [ref=e520]:
+                    - generic [ref=e522]: More user reviews
+                    - img [ref=e524]
+          - generic [ref=e527]:
+            - heading "Webresultaten" [level=2] [ref=e528]
+            - generic [ref=e529]:
+              - generic [ref=e532]:
+                - link "Centrum voor Therapie in Purmerend | Reviews Trustoo https://trustoo.nl › relatietherapeut" [ref=e534] [cursor=pointer]:
+                  - /url: https://trustoo.nl/noord-holland/purmerend/relatietherapeut/centrum-voor-therapie/
+                  - heading "Centrum voor Therapie in Purmerend | Reviews" [level=3] [ref=e535]
+                  - generic [ref=e540]:
+                    - generic [ref=e542]: Trustoo
+                    - generic [ref=e544]: https://trustoo.nl › relatietherapeut
+                - generic [ref=e545]:
+                  - generic [ref=e546]: ·
+                  - link "Translate this page" [ref=e547] [cursor=pointer]:
+                    - /url: https://trustoo.nl/noord-holland/purmerend/relatietherapeut/centrum-voor-therapie/
+                - button "About this result" [ref=e548] [cursor=pointer]:
+                  - img [ref=e551]
+              - generic [ref=e554]:
+                - text: Ik ben Mari Louise Fongers zeer dankbaar voor de hulp welke ik echt effe nodig had. Een aanrader om naar Mari Louise toe te gaan. Groet Arent Huisman.
+                - link "Read more" [ref=e555] [cursor=pointer]:
+                  - /url: https://trustoo.nl/noord-holland/purmerend/relatietherapeut/centrum-voor-therapie/#:~:text=Ik%20ben%20Mari%20Louise%20Fongers,te%20gaan.%20Groet%20Arent%20Huisman.
+              - generic [ref=e558]:
+                - generic [ref=e559]:
+                  - img "Rated 5,0 out of 5, (8) user reviews" [ref=e560]:
+                    - text: 9,8/10
+                    - img [ref=e561]
+                    - text: (8)
+                  - text: ·
+                - text: "Price range: €€"
+                - button [ref=e566]:
+                  - img [ref=e568]
+          - generic [ref=e572]:
+            - generic [ref=e575]:
+              - link "Centrum voor therapie | En nog een WordPress site Centrum voor therapie https://centrumvoortherapie.nl" [ref=e577] [cursor=pointer]:
+                - /url: https://centrumvoortherapie.nl/
+                - heading "Centrum voor therapie | En nog een WordPress site" [level=3] [ref=e578]
+                - generic [ref=e583]:
+                  - generic [ref=e585]: Centrum voor therapie
+                  - generic [ref=e587]: https://centrumvoortherapie.nl
+              - generic [ref=e588]:
+                - generic [ref=e589]: ·
+                - link "Translate this page" [ref=e590] [cursor=pointer]:
+                  - /url: https://centrumvoortherapie.nl/
+              - button "About this result" [ref=e591] [cursor=pointer]:
+                - img [ref=e594]
+            - generic [ref=e597]:
+              - text: Afgestudeerd in Social Psychology en Integratieve Psychotherapie met bijna 20 jaar praktijk ervaring omschrijven cliënten mijn stijl van werken als betrokken, ...
+              - link "Read more" [ref=e598] [cursor=pointer]:
+                - /url: https://centrumvoortherapie.nl/#:~:text=Afgestudeerd%20in%20Social%20Psychology%20en,van%20de%20cli%C3%ABnt%20v%C3%B3%C3%B3rop%20staat.
+          - generic [ref=e601]:
+            - heading "People also ask" [level=2] [ref=e603]
+            - generic [ref=e604]:
+              - button "Is therapie echt de moeite waard?" [ref=e610] [cursor=pointer]:
+                - generic [ref=e612]: Is therapie echt de moeite waard?
+                - img [ref=e615]
+              - button "Wat zijn de bijwerkingen van psychotherapie?" [ref=e624] [cursor=pointer]:
+                - generic [ref=e626]: Wat zijn de bijwerkingen van psychotherapie?
+                - img [ref=e629]
+              - button "Wat zijn de reviews van Praktijk voor Psychotherapie Amsterdam eo?" [ref=e638] [cursor=pointer]:
+                - generic [ref=e640]: Wat zijn de reviews van Praktijk voor Psychotherapie Amsterdam eo?
+                - img [ref=e643]
+              - button "Hoe effectief is psychotherapie?" [ref=e652] [cursor=pointer]:
+                - generic [ref=e654]: Hoe effectief is psychotherapie?
+                - img [ref=e657]
+          - generic [ref=e661]:
+            - heading "Webresultaten" [level=2] [ref=e662]
+            - generic [ref=e663]:
+              - generic [ref=e666]:
+                - link "Centrum voor Therapie | Purmerend Facebook · Centrum voor Therapie 50+ followers" [ref=e668] [cursor=pointer]:
+                  - /url: https://www.facebook.com/p/Centrum-voor-Therapie-100063795840483/
+                  - heading "Centrum voor Therapie | Purmerend" [level=3] [ref=e669]
+                  - generic [ref=e674]:
+                    - generic [ref=e676]: Facebook · Centrum voor Therapie
+                    - generic [ref=e678]: 50+ followers
+                - button "About this result" [ref=e679] [cursor=pointer]:
+                  - img [ref=e682]
+              - generic [ref=e685]:
+                - generic [ref=e686]:
+                  - text: Centrum voor Therapie ; Details. 󰡍.
+                  - emphasis [ref=e687]: 2 Reviews
+                  - text: . 󰘛. Tuinstee 61, Purmerend, Netherlands, 1446 HH ; Links. 󰤂. centrumvoortherapie.nl ; Contact info. 󰛪. +31 6 30682579.
+                - link "Read more" [ref=e688] [cursor=pointer]:
+                  - /url: https://www.facebook.com/p/Centrum-voor-Therapie-100063795840483/#:~:text=Centrum%20voor%20Therapie&text=Details,61%2C%20Purmerend%2C%20Netherlands%2C%201446%20HH&text=Links,centrumvoortherapie.nl&text=Contact%20info,%2B31%206%2030682579
+              - generic [ref=e691]:
+                - img "Rated 2,3 out of 5, (3) user reviews" [ref=e693]:
+                  - text: 2,3
+                  - img [ref=e694]
+                  - text: (3)
+                - button [ref=e699]:
+                  - img [ref=e701]
+          - generic [ref=e705]:
+            - generic [ref=e708]:
+              - link "Ervaringen van cliënten - Therapie Amsterdam Centrum-West amsterdamtherapie.nl https://amsterdamtherapie.nl › ervar..." [ref=e710] [cursor=pointer]:
+                - /url: https://amsterdamtherapie.nl/therapie/ervaringen-van-clienten/
+                - heading "Ervaringen van cliënten - Therapie Amsterdam Centrum-West" [level=3] [ref=e711]
+                - generic [ref=e716]:
+                  - generic [ref=e718]: amsterdamtherapie.nl
+                  - generic [ref=e720]: https://amsterdamtherapie.nl › ervar...
+              - generic [ref=e721]:
+                - generic [ref=e722]: ·
+                - link "Translate this page" [ref=e723] [cursor=pointer]:
+                  - /url: https://amsterdamtherapie.nl/therapie/ervaringen-van-clienten/
+              - button "About this result" [ref=e724] [cursor=pointer]:
+                - img [ref=e727]
+            - generic [ref=e730]:
+              - text: “Ik voel me bij jou helemaal geaccepteerd en veilig. Toch deins je er ook niet voor terug om me af en toe een spiegel voor te houden. Precies wat ik nodig heb.”.
+              - link "Read more" [ref=e731] [cursor=pointer]:
+                - /url: https://amsterdamtherapie.nl/therapie/ervaringen-van-clienten/#:~:text=%E2%80%9CIk%20voel%20me%20bij%20jou,Precies%20wat%20ik%20nodig%20heb.%E2%80%9D
+          - generic [ref=e734]:
+            - generic [ref=e737]:
+              - link "Ervaringen van cliënten met psychotherapie Vind een therapeut https://www.vindeentherapeut.be › ..." [ref=e739] [cursor=pointer]:
+                - /url: https://www.vindeentherapeut.be/ervaringen-met-therapie.html
+                - heading "Ervaringen van cliënten met psychotherapie" [level=3] [ref=e740]
+                - generic [ref=e745]:
+                  - generic [ref=e747]: Vind een therapeut
+                  - generic [ref=e749]: https://www.vindeentherapeut.be › ...
+              - generic [ref=e750]:
+                - generic [ref=e751]: ·
+                - link "Translate this page" [ref=e752] [cursor=pointer]:
+                  - /url: https://www.vindeentherapeut.be/ervaringen-met-therapie.html
+              - button "About this result" [ref=e753] [cursor=pointer]:
+                - img [ref=e756]
+            - generic [ref=e759]:
+              - generic [ref=e760]:
+                - text: De stap naar
+                - emphasis [ref=e761]: therapie
+                - text: is niet eenvoudig. Misschien weet je niet wat er gaat gebeuren, of het wel werkt en of het wel nodig is voor jou. Lees hier ervaringen ...
+              - link "Read more" [ref=e762] [cursor=pointer]:
+                - /url: https://www.vindeentherapeut.be/ervaringen-met-therapie.html#:~:text=De%20stap%20naar%20therapie%20is,wat%20therapie%20hen%20gebracht%20heeft.
+          - generic [ref=e765]:
+            - generic [ref=e768]:
+              - 'link "Mentaal Beter: Voor psychologische en psychiatrische hulp Mentaal Beter https://mentaalbeter.nl" [ref=e770] [cursor=pointer]':
+                - /url: https://mentaalbeter.nl/
+                - 'heading "Mentaal Beter: Voor psychologische en psychiatrische hulp" [level=3] [ref=e771]'
+                - generic [ref=e776]:
+                  - generic [ref=e778]: Mentaal Beter
+                  - generic [ref=e780]: https://mentaalbeter.nl
+              - generic [ref=e781]:
+                - generic [ref=e782]: ·
+                - link "Translate this page" [ref=e783] [cursor=pointer]:
+                  - /url: https://mentaalbeter.nl/
+              - button "About this result" [ref=e784] [cursor=pointer]:
+                - img [ref=e787]
+            - generic [ref=e790]:
+              - generic [ref=e791]:
+                - emphasis [ref=e792]: Cliënten beoordelen de behandelingen bij ons gemiddeld met een 8,6
+                - text: . Vooral op het gebied van bejegening zijn onze cliënten erg tevreden. Korte wachttijden. Wij ...
+              - link "Read more" [ref=e793] [cursor=pointer]:
+                - /url: https://mentaalbeter.nl/#:~:text=Cli%C3%ABnten%20beoordelen%20de%20behandelingen%20bij,zo%20kort%20mogelijk%20te%20houden.
+          - generic [ref=e796]:
+            - generic [ref=e799]:
+              - link "Psychotherapie Amsterdam Centrum-West bij Susanne Therapiepsycholoog.com https://www.therapiepsycholoog.com › ..." [ref=e801] [cursor=pointer]:
+                - /url: https://www.therapiepsycholoog.com/psychotherapie-amsterdam-centrum-west-susanne-bulten
+                - heading "Psychotherapie Amsterdam Centrum-West bij Susanne" [level=3] [ref=e802]
+                - generic [ref=e807]:
+                  - generic [ref=e809]: Therapiepsycholoog.com
+                  - generic [ref=e811]: https://www.therapiepsycholoog.com › ...
+              - generic [ref=e812]:
+                - generic [ref=e813]: ·
+                - link "Translate this page" [ref=e814] [cursor=pointer]:
+                  - /url: https://www.therapiepsycholoog.com/psychotherapie-amsterdam-centrum-west-susanne-bulten
+              - button "About this result" [ref=e815] [cursor=pointer]:
+                - img [ref=e818]
+            - generic [ref=e821]:
+              - generic [ref=e822]:
+                - emphasis [ref=e823]: Reviews
+                - text: . Hieronder staan reviews over Susanne. Waardering 4,7 uit 5 op basis van 3 reviews. Schrijf zelf een review. Waardering 5 uit 5 Ik raad deze therapeut ...
+              - link "Read more" [ref=e824] [cursor=pointer]:
+                - /url: https://www.therapiepsycholoog.com/psychotherapie-amsterdam-centrum-west-susanne-bulten#:~:text=Reviews,Ik%20raad%20deze%20therapeut%20aan
+          - generic [ref=e827]:
+            - generic [ref=e830]:
+              - link "Links - Therapie Amsterdam Centrum-West amsterdamtherapie.nl https://amsterdamtherapie.nl › psyc..." [ref=e832] [cursor=pointer]:
+                - /url: https://amsterdamtherapie.nl/psycholoog-amsterdam-centrum-west/
+                - heading "Links - Therapie Amsterdam Centrum-West" [level=3] [ref=e833]
+                - generic [ref=e838]:
+                  - generic [ref=e840]: amsterdamtherapie.nl
+                  - generic [ref=e842]: https://amsterdamtherapie.nl › psyc...
+              - generic [ref=e843]:
+                - generic [ref=e844]: ·
+                - link "Translate this page" [ref=e845] [cursor=pointer]:
+                  - /url: https://amsterdamtherapie.nl/psycholoog-amsterdam-centrum-west/
+              - button "About this result" [ref=e846] [cursor=pointer]:
+                - img [ref=e849]
+            - generic [ref=e852]:
+              - generic [ref=e853]:
+                - text: therapie bilthoven Therapie Amsterdam Centrum-West.
+                - emphasis [ref=e854]: wordt gewaardeerd met 4.8 uit 5 sterren op basis van 5 reviews
+                - text: ". Ik ben aangesloten bij: logo-vit-rbcz."
+              - link "Read more" [ref=e855] [cursor=pointer]:
+                - /url: https://amsterdamtherapie.nl/psycholoog-amsterdam-centrum-west/#:~:text=Therapie%20Amsterdam%20Centrum%2DWest,Ik%20ben%20aangesloten%20bij%3A
+          - generic [ref=e863]:
+            - heading "People also search for" [level=2] [ref=e865]
+            - generic [ref=e867]:
+              - generic [ref=e868]:
+                - link "Praktijk voor Psychiatrie en Psychotherapie" [ref=e872] [cursor=pointer]:
+                  - /url: /search?sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Praktijk+voor+Psychiatrie+en+Psychotherapie&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ1QJ6BAhzEAE
+                  - generic [ref=e873]:
+                    - generic [ref=e878]: Praktijk voor Psychiatrie en Psychotherapie
+                    - img [ref=e882]
+                - link "Therapie Purmerend" [ref=e887] [cursor=pointer]:
+                  - /url: /search?sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Therapie+Purmerend&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ1QJ6BAh3EAE
+                  - generic [ref=e888]:
+                    - generic [ref=e893]: Therapie Purmerend
+                    - img [ref=e897]
+                - link "Praktijk voor Psychotherapie C.O. Abbing" [ref=e902] [cursor=pointer]:
+                  - /url: /search?sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Praktijk+voor+Psychotherapie+C.O.+Abbing&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ1QJ6BAh5EAE
+                  - generic [ref=e903]:
+                    - generic [ref=e908]: Praktijk voor Psychotherapie C.O. Abbing
+                    - img [ref=e912]
+                - link "Integratieve psychotherapie" [ref=e917] [cursor=pointer]:
+                  - /url: /search?sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Integratieve+psychotherapie&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ1QJ6BAh7EAE
+                  - generic [ref=e918]:
+                    - generic [ref=e923]: Integratieve psychotherapie
+                    - img [ref=e927]
+              - generic [ref=e929]:
+                - link "Psychotherapie amsterdam centrum" [ref=e933] [cursor=pointer]:
+                  - /url: /search?sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Psychotherapie+amsterdam+centrum&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ1QJ6BAh8EAE
+                  - generic [ref=e934]:
+                    - generic [ref=e939]: Psychotherapie amsterdam centrum
+                    - img [ref=e943]
+                - link "Beste psychotherapeut Amsterdam" [ref=e948] [cursor=pointer]:
+                  - /url: /search?sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Beste+psychotherapeut+Amsterdam&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ1QJ6BAh_EAE
+                  - generic [ref=e949]:
+                    - generic [ref=e954]: Beste psychotherapeut Amsterdam
+                    - img [ref=e958]
+                - link "Praktijk Psychotherapie" [ref=e963] [cursor=pointer]:
+                  - /url: /search?sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Praktijk+Psychotherapie&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ1QJ6BAh6EAE
+                  - generic [ref=e964]:
+                    - generic [ref=e969]: Praktijk Psychotherapie
+                    - img [ref=e973]
+                - link "Psycholoog Purmerend" [ref=e978] [cursor=pointer]:
+                  - /url: /search?sca_esv=616bd5aed7a8ec96&hl=en-NL&biw=1440&bih=760&q=Psycholoog+Purmerend&sa=X&ved=2ahUKEwj4_rmnu5aUAxUChv0HHTtOACAQ1QJ6BAh2EAE
+                  - generic [ref=e979]:
+                    - generic [ref=e984]: Psycholoog Purmerend
+                    - img [ref=e988]
+      - generic:
+        - generic:
+          - navigation
+      - navigation
+    - contentinfo [ref=e991]:
+      - heading "Footer links" [level=1] [ref=e992]
+      - generic [ref=e996]:
+        - generic [ref=e998]:
+          - text: Netherlands
+          - generic [ref=e1000]:
+            - button "1183, Amstelveen - From your IP address" [ref=e1002] [cursor=pointer]:
+              - generic [ref=e1003]: 1183, Amstelveen
+              - generic [ref=e1005]:
+                - text: "-"
+                - generic [ref=e1006]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e1008] [cursor=pointer]: Update location
+        - generic [ref=e1011]:
+          - link "Help" [ref=e1012] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-NL&fg=1
+          - link "Send feedback" [ref=e1013] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1014] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-NL&fg=1
+          - link "Terms" [ref=e1015] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-NL&fg=1
