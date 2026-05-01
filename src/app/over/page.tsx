@@ -34,11 +34,12 @@ export default function OverPage() {
             </div>
             <div className="relative aspect-[4/5] max-w-sm mx-auto">
               <div className="absolute -inset-4 rounded-[3rem] bg-gradient-to-br from-blush via-cream to-gold-light blur-2xl opacity-40" />
-              <div className="relative h-full rounded-[2.5rem] overflow-hidden border border-line/60 shadow-xl">
+              <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden border border-line/60 shadow-xl bg-blush-soft">
                 <Image
                   src="/images/profile/mari-louise-round.png"
                   alt="Mari-Louise Fongers"
                   fill
+                  sizes="(max-width: 768px) 100vw, 400px"
                   className="object-cover"
                   priority
                 />
