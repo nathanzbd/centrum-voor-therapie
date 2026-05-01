@@ -10,7 +10,7 @@ import { Phone, Mail, MapPin, Clock, Check, MessageCircle, Heart } from "lucide-
 export const metadata = {
   title: "Contact | Centrum voor Therapie Purmerend",
   description:
-    "Neem contact op met Mari-Louise Fongers. Praktijk Tuinstee 61, Purmerend. Snel een eerste afspraak, zonder verwijsbrief.",
+    "Neem contact op met Mari Louise Fongers. Praktijk Tuinstee 61, Purmerend. Snel een eerste afspraak, zonder verwijsbrief.",
 };
 
 export default function ContactPage() {
@@ -58,7 +58,7 @@ export default function ContactPage() {
               <div className="relative aspect-square rounded-full overflow-hidden border-4 border-white shadow-2xl bg-blush-soft">
                 <Image
                   src="/images/profile/mari-louise-round.png"
-                  alt="Mari-Louise Fongers"
+                  alt="Mari Louise Fongers"
                   fill
                   sizes="(max-width: 768px) 80vw, 380px"
                   className="object-cover"
@@ -78,7 +78,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="py-16">
+      <section className="py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-5 gap-10">
           <Reveal className="lg:col-span-3">
             <ContactForm />
@@ -162,17 +162,6 @@ export default function ContactPage() {
               </div>
             </Reveal>
 
-            <Reveal delay={3}>
-              <div className="rounded-3xl overflow-hidden border border-line/60 aspect-[4/3]">
-                <Image
-                  src="/images/praktijk/room-3.jpg"
-                  alt="Praktijkruimte"
-                  width={600}
-                  height={450}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </Reveal>
           </div>
         </div>
       </section>

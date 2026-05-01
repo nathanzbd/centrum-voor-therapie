@@ -34,7 +34,7 @@ export default function HomePage() {
         <div className="absolute -top-32 -right-20 w-[600px] h-[600px] rounded-full bg-blush/40 blur-3xl animate-drift" />
         <div className="absolute top-40 -left-32 w-[420px] h-[420px] rounded-full bg-gold-light/30 blur-3xl animate-drift" style={{ animationDelay: "-9s" }} />
 
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-10 pt-20 pb-32">
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-10 pt-20 pb-20">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-white/60 backdrop-blur-sm border border-line animate-fade-in-up">
@@ -86,7 +86,7 @@ export default function HomePage() {
                 <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden border border-line/60 shadow-2xl bg-blush-soft">
                   <Image
                     src="/images/profile/mari-louise-round.png"
-                    alt="Mari-Louise Fongers"
+                    alt="Mari Louise Fongers"
                     fill
                     sizes="(max-width: 768px) 90vw, 420px"
                     className="object-cover"
@@ -104,7 +104,7 @@ export default function HomePage() {
                   <p className="text-sm text-ink-soft italic leading-snug">
                     &ldquo;Waar kan ik jou bij helpen?&rdquo;
                   </p>
-                  <p className="text-xs text-ink-mute mt-1">— Mari-Louise</p>
+                  <p className="text-xs text-ink-mute mt-1">— Mari Louise</p>
                 </div>
 
                 <div className="absolute -top-6 -right-4 bg-gold-deep text-white rounded-2xl px-4 py-3 shadow-xl">
@@ -130,7 +130,7 @@ export default function HomePage() {
       </section>
 
       {/* About */}
-      <section className="py-24 relative overflow-hidden">
+      <section className="py-20 relative overflow-hidden">
         <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-blush/20 blur-3xl" />
         <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
           <div className="grid lg:grid-cols-12 gap-12 items-center">
@@ -139,7 +139,7 @@ export default function HomePage() {
                 Over mij
               </span>
               <h2 className="text-4xl md:text-5xl mt-3 leading-tight pb-1">
-                Mari-Louise<br />
+                Mari Louise<br />
                 <span className="text-gold-deep font-medium">Fongers</span>
               </h2>
               <p className="text-ink-mute mt-4 italic">
@@ -174,7 +174,7 @@ export default function HomePage() {
       </section>
 
       {/* Educational visual band: integrative therapy approach */}
-      <section className="relative py-24 bg-cream overflow-hidden">
+      <section className="relative py-20 bg-cream overflow-hidden">
         <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
           <Reveal>
             <div className="relative aspect-[4/5] max-w-md">
@@ -231,7 +231,7 @@ export default function HomePage() {
       </section>
 
       {/* Conditions */}
-      <section className="py-24 relative">
+      <section className="py-20 relative">
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <Reveal>
             <div className="text-center max-w-2xl mx-auto mb-16">
@@ -281,7 +281,7 @@ export default function HomePage() {
       </section>
 
       {/* Quote band */}
-      <section className="py-28 bg-gradient-to-br from-cream via-bg-warm to-blush-soft relative overflow-hidden">
+      <section className="py-20 bg-gradient-to-br from-cream via-bg-warm to-blush-soft relative overflow-hidden">
         <div className="absolute -top-20 -left-20 w-96 h-96 rounded-full bg-gold-light/30 blur-3xl animate-drift" />
         <div className="absolute -bottom-20 -right-20 w-96 h-96 rounded-full bg-blush/40 blur-3xl animate-drift" style={{ animationDelay: "-12s" }} />
         <Reveal>
@@ -293,14 +293,14 @@ export default function HomePage() {
               niets is onoverkomelijk.&rdquo;
             </p>
             <div className="text-sm uppercase tracking-widest text-gold-deep">
-              Mari-Louise Fongers
+              Mari Louise Fongers
             </div>
           </div>
         </Reveal>
       </section>
 
       {/* Reviews */}
-      <section className="py-24">
+      <section className="py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <Reveal>
             <div className="flex flex-col lg:flex-row lg:items-end justify-between mb-12 gap-6">
@@ -394,7 +394,7 @@ export default function HomePage() {
       </section>
 
       {/* Contact CTA */}
-      <section className="py-24">
+      <section className="py-20">
         <div className="mx-auto max-w-5xl px-6 lg:px-10">
           <Reveal>
             <div className="relative rounded-[2.5rem] bg-gradient-to-br from-gold-deep via-gold to-gold-light p-10 md:p-16 text-white overflow-hidden glow-gold">
@@ -403,9 +403,9 @@ export default function HomePage() {
 
               <div className="relative grid md:grid-cols-2 gap-10 items-center">
                 <div>
-                  <h2 className="text-4xl md:text-5xl text-white leading-tight mb-5 pb-1">
+                  <h2 className="text-4xl md:text-5xl !text-white leading-tight mb-5 pb-1">
                     Klaar om te <br />
-                    <span className="italic">beginnen?</span>
+                    <span className="!text-white">beginnen?</span>
                   </h2>
                   <p className="text-white/90 text-lg leading-relaxed mb-8">
                     Twijfel je of therapie iets voor je is? Stuur een berichtje of

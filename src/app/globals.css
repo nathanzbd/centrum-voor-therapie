@@ -47,8 +47,15 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: var(--font-display);
   letter-spacing: -0.02em;
-  color: var(--ink);
   font-weight: 400;
+}
+/* Default heading color is ink, but utilities can override it */
+h1:not([class*="text-"]),
+h2:not([class*="text-"]),
+h3:not([class*="text-"]),
+h4:not([class*="text-"]),
+h5:not([class*="text-"]) {
+  color: var(--ink);
 }
 
 /* Disable Fraunces italic everywhere — the swashy italic glyphs don't fit

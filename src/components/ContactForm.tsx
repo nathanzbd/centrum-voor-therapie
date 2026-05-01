@@ -3,21 +3,26 @@
 import { useState } from "react";
 import { Send, Check, AlertCircle } from "lucide-react";
 
+type Errors = Record<string, string>;
+
 export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "loading" | "ok" | "error">("idle");
-  const [error, setError] = useState("");
+  const [errors, setErrors] = useState<Errors>({});
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("loading");
-    setError("");
+    setErrors({});
 
-    const data = Object.fromEntries(new FormData(e.currentTarget));
-    if (!data.privacy) {
-      setStatus("error");
-      setError("Vink het privacy-vinkje aan om te versturen.");
-      return;
-    }
+    const form = e.currentTarget;
+    const fd = new FormData(form);
+    const data = {
+      naam: fd.get("naam"),
+      telefoon: fd.get("telefoon"),
+      email: fd.get("email"),
+      bericht: fd.get("bericht"),
+      privacy: fd.get("privacy") === "on",
+    };
 
     try {
       const res = await fetch("/api/contact", {
@@ -25,14 +30,24 @@ export default function ContactForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
-      if (!res.ok) throw new Error("Versturen mislukt");
+
+      if (!res.ok) {
+        const json = await res.json().catch(() => ({}));
+        if (json.errors) {
+          setErrors(json.errors);
+          setStatus("error");
+          return;
+        }
+        setErrors({ _general: json.error || "Versturen mislukt." });
+        setStatus("error");
+        return;
+      }
+
       setStatus("ok");
-      e.currentTarget.reset();
-    } catch (err) {
+      form.reset();
+    } catch {
+      setErrors({ _general: "Geen verbinding. Mail direct naar centrumvoortherapie@gmail.com." });
       setStatus("error");
-      setError(
-        "Er ging iets mis. Mail me direct op centrumvoortherapie@gmail.com."
-      );
     }
   }
 
@@ -50,52 +65,79 @@ export default function ContactForm() {
     );
   }
 
+  const inputClass = (key: string) =>
+    `w-full px-4 py-3 rounded-xl border bg-white focus:outline-none focus:ring-1 transition ${
+      errors[key]
+        ? "border-red-400 focus:border-red-500 focus:ring-red-300"
+        : "border-line focus:border-gold-deep focus:ring-gold-deep"
+    }`;
+
   return (
-    <form onSubmit={onSubmit} className="bg-cream rounded-3xl p-8 md:p-10 border border-line/60 space-y-5">
+    <form onSubmit={onSubmit} noValidate className="bg-cream rounded-3xl p-8 md:p-10 border border-line/60 space-y-5">
       <div className="grid sm:grid-cols-2 gap-4">
         <div>
-          <label className="block text-sm text-ink-soft mb-2">Naam</label>
+          <label className="block text-sm text-ink-soft mb-2">
+            Naam <span className="text-gold-deep">*</span>
+          </label>
           <input
             name="naam"
             required
-            className="w-full px-4 py-3 rounded-xl border border-line bg-white focus:border-gold-deep focus:outline-none focus:ring-1 focus:ring-gold-deep transition"
+            autoComplete="name"
+            className={inputClass("naam")}
           />
+          {errors.naam && (
+            <p className="text-xs text-red-600 mt-1.5">{errors.naam}</p>
+          )}
         </div>
         <div>
           <label className="block text-sm text-ink-soft mb-2">Telefoon</label>
           <input
             name="telefoon"
             type="tel"
-            className="w-full px-4 py-3 rounded-xl border border-line bg-white focus:border-gold-deep focus:outline-none focus:ring-1 focus:ring-gold-deep transition"
+            autoComplete="tel"
+            className={inputClass("telefoon")}
           />
         </div>
       </div>
 
       <div>
-        <label className="block text-sm text-ink-soft mb-2">E-mail</label>
+        <label className="block text-sm text-ink-soft mb-2">
+          E-mail <span className="text-gold-deep">*</span>
+        </label>
         <input
           name="email"
           type="email"
           required
-          className="w-full px-4 py-3 rounded-xl border border-line bg-white focus:border-gold-deep focus:outline-none focus:ring-1 focus:ring-gold-deep transition"
+          autoComplete="email"
+          className={inputClass("email")}
         />
+        {errors.email && (
+          <p className="text-xs text-red-600 mt-1.5">{errors.email}</p>
+        )}
       </div>
 
       <div>
-        <label className="block text-sm text-ink-soft mb-2">Bericht</label>
+        <label className="block text-sm text-ink-soft mb-2">
+          Bericht <span className="text-gold-deep">*</span>
+        </label>
         <textarea
           name="bericht"
           required
+          minLength={5}
           rows={6}
-          className="w-full px-4 py-3 rounded-xl border border-line bg-white focus:border-gold-deep focus:outline-none focus:ring-1 focus:ring-gold-deep transition resize-none"
+          className={`${inputClass("bericht")} resize-none`}
           placeholder="Vertel kort waar je bij geholpen wilt worden..."
         />
+        {errors.bericht && (
+          <p className="text-xs text-red-600 mt-1.5">{errors.bericht}</p>
+        )}
       </div>
 
       <label className="flex items-start gap-3 text-sm text-ink-soft cursor-pointer">
         <input
           type="checkbox"
           name="privacy"
+          required
           className="mt-1 accent-gold-deep"
         />
         <span>
@@ -103,14 +145,18 @@ export default function ContactForm() {
           <a href="/privacy" className="text-gold-deep underline">
             privacyverklaring
           </a>{" "}
-          gelezen en ga akkoord met de algemene voorwaarden.
+          gelezen en ga akkoord met de algemene voorwaarden.{" "}
+          <span className="text-gold-deep">*</span>
         </span>
       </label>
+      {errors.privacy && (
+        <p className="text-xs text-red-600 -mt-3">{errors.privacy}</p>
+      )}
 
-      {status === "error" && (
+      {errors._general && (
         <div className="flex gap-2 text-sm text-red-700 bg-red-50 rounded-xl p-3">
           <AlertCircle size={16} className="mt-0.5 shrink-0" />
-          {error}
+          {errors._general}
         </div>
       )}
 
@@ -122,6 +168,10 @@ export default function ContactForm() {
         <Send size={16} />
         {status === "loading" ? "Versturen..." : "Verstuur bericht"}
       </button>
+
+      <p className="text-xs text-ink-mute">
+        Velden met <span className="text-gold-deep">*</span> zijn verplicht.
+      </p>
     </form>
   );
 }

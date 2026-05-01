@@ -2,7 +2,7 @@ import { business } from "@/lib/content";
 
 export default function WhatsAppButton() {
   const text = encodeURIComponent(
-    "Hallo Mari-Louise, ik zou graag een afspraak willen maken voor een kennismaking."
+    "Hallo Mari Louise, ik zou graag een afspraak willen maken voor een kennismaking."
   );
   return (
     <a

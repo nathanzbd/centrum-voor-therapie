@@ -7,7 +7,7 @@ import { aboutBio, certifications } from "@/lib/content";
 import { ArrowRight, Award, Calendar } from "lucide-react";
 
 export const metadata = {
-  title: "Over Mari-Louise Fongers | Centrum voor Therapie",
+  title: "Over Mari Louise Fongers | Centrum voor Therapie",
   description:
     "ECP gecertificeerd integratief psychotherapeut met bijna 20 jaar ervaring. Warm, betrokken, vol aandacht.",
 };
@@ -22,10 +22,10 @@ export default function OverPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <span className="text-xs uppercase tracking-widest text-gold-deep">
-                Over Mari-Louise
+                Over Mari Louise
               </span>
               <h1 className="text-5xl md:text-6xl mt-3 leading-tight">
-                Mari-Louise<br />
+                Mari Louise<br />
                 <span className="gold-text">Fongers</span>
               </h1>
               <p className="text-lg text-ink-soft mt-5 leading-relaxed">
@@ -37,7 +37,7 @@ export default function OverPage() {
               <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden border border-line/60 shadow-xl bg-blush-soft">
                 <Image
                   src="/images/profile/mari-louise-round.png"
-                  alt="Mari-Louise Fongers"
+                  alt="Mari Louise Fongers"
                   fill
                   sizes="(max-width: 768px) 100vw, 400px"
                   className="object-cover"
@@ -50,12 +50,36 @@ export default function OverPage() {
       </section>
 
       <section className="py-20">
-        <div className="mx-auto max-w-3xl px-6 lg:px-10 space-y-6">
-          {aboutBio.paragraphs.map((p, i) => (
-            <p key={i} className="text-ink-soft text-[17px] leading-[1.8]">
-              {p}
-            </p>
-          ))}
+        <div className="mx-auto max-w-6xl px-6 lg:px-10 grid lg:grid-cols-12 gap-12">
+          <div className="lg:col-span-4">
+            <div className="sticky top-28">
+              <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-line/60 shadow-xl bg-blush-soft">
+                <Image
+                  src="/images/profile/mari-louise-round.png"
+                  alt="Mari Louise Fongers"
+                  fill
+                  sizes="(max-width: 1024px) 80vw, 380px"
+                  className="object-cover"
+                />
+              </div>
+              <div className="mt-6 p-6 bg-cream rounded-3xl border border-line/60">
+                <div className="text-xs uppercase tracking-widest text-gold-deep mb-1">
+                  Stijl van werken
+                </div>
+                <p className="text-sm text-ink-soft leading-relaxed">
+                  &ldquo;Betrokken, warm, vol aandacht, onderzoekend en respectvol —
+                  waarbij jouw tempo voorop staat.&rdquo;
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:col-span-8 space-y-6">
+            {aboutBio.paragraphs.map((p, i) => (
+              <p key={i} className="text-ink-soft text-[17px] leading-[1.8]">
+                {p}
+              </p>
+            ))}
+          </div>
         </div>
       </section>
 

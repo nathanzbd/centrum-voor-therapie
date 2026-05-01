@@ -121,7 +121,7 @@ export default async function ConditionPage({
         </div>
       </section>
 
-      <section className="py-16 bg-cream">
+      <section className="py-20 bg-cream">
         <div className="mx-auto max-w-3xl px-6 lg:px-10 text-center">
           <Reveal>
             <h2 className="text-3xl md:text-4xl mb-5">

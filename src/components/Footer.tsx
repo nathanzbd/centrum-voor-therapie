@@ -17,7 +17,7 @@ export default function Footer() {
               className="h-14 w-auto mb-4"
             />
             <p className="text-sm text-ink-soft leading-relaxed mb-4 max-w-xs">
-              Praktijk voor integratieve psychotherapie in Purmerend. Mari-Louise
+              Praktijk voor integratieve psychotherapie in Purmerend. Mari Louise
               Fongers — warm, betrokken en vol aandacht.
             </p>
             <p className="text-xs text-ink-mute italic">
@@ -57,11 +57,11 @@ export default function Footer() {
               Snel naar
             </h4>
             <ul className="space-y-2 text-sm text-ink-soft">
-              <li><Link href="/over" className="hover:text-gold-deep">Over Mari-Louise</Link></li>
-              <li><Link href="/werkwijze" className="hover:text-gold-deep">Werkwijze</Link></li>
               <li><Link href="/klachten" className="hover:text-gold-deep">Klachten</Link></li>
+              <li><Link href="/werkwijze" className="hover:text-gold-deep">Werkwijze</Link></li>
+              <li><Link href="/over" className="hover:text-gold-deep">Over mij</Link></li>
               <li><Link href="/praktijk" className="hover:text-gold-deep">Praktijkruimte</Link></li>
-              <li><Link href="/tarieven" className="hover:text-gold-deep">Tarieven & vergoedingen</Link></li>
+              <li><Link href="/tarieven" className="hover:text-gold-deep">Tarieven</Link></li>
               <li><Link href="/reviews" className="hover:text-gold-deep">Ervaringen</Link></li>
               <li><Link href="/contact" className="hover:text-gold-deep">Contact</Link></li>
             </ul>

@@ -1,6 +1,6 @@
 export const business = {
   name: "Centrum voor Therapie",
-  therapist: "Mari-Louise Fongers",
+  therapist: "Mari Louise Fongers",
   tagline: "Alles is haalbaar, niets is onoverkomelijk",
   phone: "06 30682579",
   phoneRaw: "+31630682579",
@@ -94,6 +94,20 @@ export const conditions = [
     ],
   },
   {
+    slug: "relatieproblemen",
+    title: "Relatieproblemen",
+    image: "/images/conditions/relatieproblemen.jpg",
+    summary:
+      "Een relatie waarin het niet meer stroomt vraagt om ruimte en aandacht. Samen onderzoeken we patronen en herstellen we verbinding.",
+    symptoms: [
+      "Steeds dezelfde discussies",
+      "Afstand of onverschilligheid",
+      "Communicatieproblemen",
+      "Verlies van intimiteit",
+      "Onzekerheid over de relatie",
+    ],
+  },
+  {
     slug: "chronische-pijn",
     title: "Chronische pijn",
     image: "/images/conditions/chronische-pijn.jpg",
@@ -121,6 +135,20 @@ export const conditions = [
       "Emotioneel verdoofd",
     ],
   },
+  {
+    slug: "re-integratie",
+    title: "Re-integratie",
+    image: "/images/conditions/re-integratie.jpg",
+    summary:
+      "Terugkeren naar werk na ziekte of uitval vraagt zorgvuldigheid. Ik begeleid je in het opbouwen van vertrouwen en draagkracht.",
+    symptoms: [
+      "Onzekerheid over werkhervatting",
+      "Stress bij gedachte aan werk",
+      "Spanning met werkgever",
+      "Gebrek aan zelfvertrouwen",
+      "Behoefte aan structuur",
+    ],
+  },
 ];
 
 export const certifications = [
@@ -134,7 +162,7 @@ export const certifications = [
   {
     name: "EAP",
     full: "European Association for Psychotherapy",
-    image: "/images/certifications/nvecp.jpg",
+    image: "/images/certifications/eap.png",
     href: "https://www.europsyche.org/",
     note: "Europese koepelorganisatie",
   },

@@ -16,7 +16,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Centrum voor Therapie | Mari-Louise Fongers — Psycholoog Purmerend",
+  title: "Centrum voor Therapie | Mari Louise Fongers — Psycholoog Purmerend",
   description:
     "Praktijk voor integratieve psychotherapie in Purmerend. Persoonlijke begeleiding bij stress, angst, burn-out, depressie, trauma en chronische pijn. Snel een eerste afspraak, zonder verwijsbrief.",
   keywords: [
@@ -24,12 +24,12 @@ export const metadata: Metadata = {
     "therapie Purmerend",
     "psychotherapie",
     "integratieve psychotherapie",
-    "Mari-Louise Fongers",
+    "Mari Louise Fongers",
     "EMDR Purmerend",
     "burn-out hulp",
     "angst therapie",
   ],
-  authors: [{ name: "Mari-Louise Fongers" }],
+  authors: [{ name: "Mari Louise Fongers" }],
   openGraph: {
     title: "Centrum voor Therapie — Psycholoog in Purmerend",
     description:
