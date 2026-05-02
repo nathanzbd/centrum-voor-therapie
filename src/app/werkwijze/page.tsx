@@ -2,6 +2,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import Reveal from "@/components/Reveal";
 import { Calendar, MessageCircle, Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
@@ -14,7 +15,7 @@ const steps = [
   {
     icon: MessageCircle,
     title: "Kennismaking",
-    text: "We starten met een gesprek waarin je vertelt waar je tegenaan loopt. Vrijblijvend en zonder druk — alleen om te kijken of we passen.",
+    text: "We starten met een gesprek waarin je vertelt waar je tegenaan loopt. Alleen om te kijken of we passen.",
   },
   {
     icon: Compass,
@@ -52,16 +53,18 @@ export default function WerkwijzePage() {
         <div className="mx-auto max-w-5xl px-6 lg:px-10">
           <div className="grid md:grid-cols-3 gap-6">
             {steps.map((s, i) => (
-              <div key={i} className="bg-cream rounded-3xl p-8 border border-line/60 relative">
-                <div className="text-xs text-gold-deep mb-3 font-medium">
-                  Stap {i + 1}
+              <Reveal key={i} delay={(i + 1) as 1 | 2 | 3}>
+                <div className="bg-cream rounded-3xl p-8 border border-line/60 relative h-full">
+                  <div className="text-xs text-gold-deep mb-3 font-medium">
+                    Stap {i + 1}
+                  </div>
+                  <div className="w-12 h-12 rounded-2xl bg-white border border-line flex items-center justify-center mb-5">
+                    <s.icon size={22} className="text-gold-deep" />
+                  </div>
+                  <h3 className="text-2xl mb-3">{s.title}</h3>
+                  <p className="text-ink-soft text-[15px] leading-relaxed">{s.text}</p>
                 </div>
-                <div className="w-12 h-12 rounded-2xl bg-white border border-line flex items-center justify-center mb-5">
-                  <s.icon size={22} className="text-gold-deep" />
-                </div>
-                <h3 className="text-2xl mb-3">{s.title}</h3>
-                <p className="text-ink-soft text-[15px] leading-relaxed">{s.text}</p>
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -69,7 +72,8 @@ export default function WerkwijzePage() {
 
       <section className="py-20 bg-cream">
         <div className="mx-auto max-w-3xl px-6 lg:px-10 space-y-6">
-          <h2 className="text-3xl md:text-4xl mb-4">Wat houdt integratieve therapie in?</h2>
+          <Reveal>
+            <h2 className="text-3xl md:text-4xl mb-4">Wat houdt integratieve therapie in?</h2>
           <p className="text-ink-soft text-[17px] leading-relaxed">
             Integratieve psychotherapie is een aanpak waarbij verschillende methodes
             samenkomen — afgestemd op wat jij op dat moment nodig hebt. Geen
@@ -84,6 +88,7 @@ export default function WerkwijzePage() {
             Het doel: dat jij weer in je eigen kracht staat, met handvatten die je
             blijvend kunt toepassen.
           </p>
+          </Reveal>
         </div>
       </section>
 

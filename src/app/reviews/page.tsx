@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import Reveal from "@/components/Reveal";
 import { reviews } from "@/lib/reviews";
 import { business } from "@/lib/content";
 import { Star, Quote } from "lucide-react";
@@ -40,9 +41,9 @@ export default function ReviewsPage() {
       <section className="py-20">
         <div className="mx-auto max-w-[1280px] px-6 lg:px-12 grid md:grid-cols-2 gap-6">
           {reviews.map((r, i) => (
+            <Reveal key={i} delay={((i % 3) + 1) as 1 | 2 | 3}>
             <article
-              key={i}
-              className="bg-cream rounded-3xl p-8 border border-line/60 relative"
+              className="bg-cream rounded-3xl p-8 border border-line/60 relative h-full"
             >
               <Quote size={24} className="text-gold-light absolute top-6 right-6 opacity-50" />
               <div className="flex mb-4">
@@ -61,6 +62,7 @@ export default function ReviewsPage() {
                 <span className="text-xs text-ink-mute">via Google</span>
               </div>
             </article>
+            </Reveal>
           ))}
         </div>
       </section>

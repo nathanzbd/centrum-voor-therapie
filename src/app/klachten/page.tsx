@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import Reveal from "@/components/Reveal";
 import { conditions } from "@/lib/content";
 import { ArrowRight } from "lucide-react";
 
@@ -35,8 +36,8 @@ export default function KlachtenPage() {
       <section className="py-20">
         <div className="mx-auto max-w-[1280px] px-6 lg:px-12 space-y-6">
           {conditions.map((c, i) => (
+            <Reveal key={c.slug}>
             <article
-              key={c.slug}
               className={`grid md:grid-cols-12 gap-6 md:gap-8 items-center bg-cream rounded-3xl p-6 md:p-12 border border-line/60 ${
                 i % 2 === 1 ? "md:[&>div:first-child]:order-2" : ""
               }`}
@@ -78,6 +79,7 @@ export default function KlachtenPage() {
                 </Link>
               </div>
             </article>
+            </Reveal>
           ))}
         </div>
       </section>

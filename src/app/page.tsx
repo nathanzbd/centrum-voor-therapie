@@ -10,7 +10,6 @@ import {
   Check,
   Calendar,
   Heart,
-  Sparkles,
   Brain,
   Compass,
 } from "lucide-react";
@@ -37,25 +36,19 @@ export default function HomePage() {
         <div className="relative mx-auto max-w-[1440px] px-6 lg:px-12 pt-20 pb-20">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-white/60 backdrop-blur-sm border border-line animate-fade-in-up">
-                <Sparkles size={14} className="text-gold-deep" />
-                <span className="text-xs uppercase tracking-widest text-ink-soft">
-                  Praktijk in Purmerend
-                </span>
-              </div>
-
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] mb-6 animate-fade-in-up delay-100 pb-2">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] mb-6 animate-fade-in-up pb-2">
                 Ruimte om <span className="gold-text">jezelf</span><br />
                 opnieuw te <br />
                 ontmoeten.
               </h1>
 
-              <p className="text-lg text-ink-soft leading-relaxed mb-8 max-w-lg animate-fade-in-up delay-200">
-                Persoonlijke psychotherapie en coaching, met bijna 20 jaar ervaring.
-                Warm, betrokken en met aandacht voor jouw verhaal — in jouw tempo.
+              <p className="text-lg text-ink-soft leading-relaxed mb-8 max-w-lg animate-fade-in-up delay-100 italic">
+                &ldquo;Waar kan ik jou bij helpen? Samen ontdekken we wat jij wilt
+                bereiken — en zetten we daar concrete stappen in. In alle veiligheid,
+                in jouw tempo.&rdquo;
               </p>
 
-              <div className="flex flex-wrap gap-3 mb-10 animate-fade-in-up delay-300">
+              <div className="flex flex-wrap gap-3 mb-10 animate-fade-in-up delay-200">
                 <Link href="/contact" className="btn-primary">
                   <Calendar size={16} />
                   Maak een afspraak
@@ -66,7 +59,7 @@ export default function HomePage() {
                 </Link>
               </div>
 
-              <div className="flex items-center gap-4 pt-6 border-t border-line/60 animate-fade-in-up delay-400">
+              <div className="flex items-center gap-4 pt-6 border-t border-line/60 animate-fade-in-up delay-300">
                 <div className="flex -space-x-1">
                   {[1, 2, 3, 4, 5].map((i) => (
                     <Star key={i} size={18} className="fill-gold text-gold" />
@@ -117,16 +110,33 @@ export default function HomePage() {
 
           {/* USP strip */}
           <Reveal>
-            <div className="mt-20 grid grid-cols-2 md:grid-cols-5 gap-4 pt-8 border-t border-line/40">
+            <div className="mt-20 grid grid-cols-2 md:grid-cols-5 gap-x-6 gap-y-3 pt-8 border-t border-line/40">
               {business.usps.map((usp, i) => (
-                <div key={i} className="flex items-start gap-2 text-sm text-ink-soft">
-                  <Check size={18} className="text-gold-deep shrink-0 mt-0.5" />
+                <div key={i} className="flex items-center gap-2 text-sm text-ink-soft">
+                  <Check size={16} className="text-gold-deep shrink-0" />
                   <span>{usp}</span>
                 </div>
               ))}
             </div>
           </Reveal>
         </div>
+      </section>
+
+      {/* Warm intro band */}
+      <section className="py-20 bg-cream relative overflow-hidden">
+        <div className="absolute -top-32 -left-20 w-[500px] h-[500px] rounded-full bg-blush/30 blur-3xl" />
+        <Reveal>
+          <div className="relative mx-auto max-w-3xl px-6 text-center">
+            <p className="text-xl md:text-2xl text-ink leading-[1.7] font-display">
+              &ldquo;We willen allemaal lekker functioneren in ons leven, en
+              meestal lukt dat ook. Maar soms lopen we tegen dingen aan waarbij
+              we wat hulp kunnen gebruiken.&rdquo;
+            </p>
+            <p className="text-lg text-gold-deep mt-6 italic">
+              Ben je op zoek naar psychologische hulp?
+            </p>
+          </div>
+        </Reveal>
       </section>
 
       {/* About */}
@@ -175,9 +185,9 @@ export default function HomePage() {
 
       {/* Educational visual band: integrative therapy approach */}
       <section className="relative py-20 bg-cream overflow-hidden">
-        <div className="mx-auto max-w-[1440px] px-6 lg:px-12 grid lg:grid-cols-2 gap-16 items-center">
+        <div className="mx-auto max-w-[1280px] px-6 lg:px-12 grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
           <Reveal>
-            <div className="relative aspect-[4/5] max-w-md">
+            <div className="relative aspect-[4/5] max-w-md mx-auto lg:mx-0">
               <div className="absolute -inset-8 bg-blush/30 blur-3xl rounded-full" />
               <div className="relative w-full h-full rounded-3xl overflow-hidden border border-line/60 shadow-xl bg-blush-soft">
                 <Image

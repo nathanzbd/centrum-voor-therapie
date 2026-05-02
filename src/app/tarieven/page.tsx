@@ -2,6 +2,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import Reveal from "@/components/Reveal";
 import { tariffs } from "@/lib/content";
 import { Calendar, Check } from "lucide-react";
 
@@ -42,16 +43,18 @@ export default function TarievenPage() {
         <div className="mx-auto max-w-4xl px-6 lg:px-10">
           <div className="grid md:grid-cols-2 gap-6">
             {tariffs.map((t, i) => (
-              <div key={i} className="bg-cream rounded-3xl p-8 border border-line/60">
-                <div className="text-xs uppercase tracking-widest text-gold-deep mb-3">
-                  {t.duration}
+              <Reveal key={i} delay={(i + 1) as 1 | 2}>
+                <div className="bg-cream rounded-3xl p-8 border border-line/60 h-full">
+                  <div className="text-xs uppercase tracking-widest text-gold-deep mb-3">
+                    {t.duration}
+                  </div>
+                  <h3 className="text-xl mb-4">{t.title}</h3>
+                  <div className="flex items-baseline gap-2 mb-1">
+                    <span className="text-3xl font-display text-ink">{t.price}</span>
+                  </div>
+                  <div className="text-sm text-ink-mute">{t.note}</div>
                 </div>
-                <h3 className="text-xl mb-4">{t.title}</h3>
-                <div className="flex items-baseline gap-2 mb-1">
-                  <span className="text-3xl font-display text-ink">{t.price}</span>
-                </div>
-                <div className="text-sm text-ink-mute">{t.note}</div>
-              </div>
+              </Reveal>
             ))}
           </div>
 

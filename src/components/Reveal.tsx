@@ -2,24 +2,34 @@
 
 import { useEffect, useRef, useState, ReactNode } from "react";
 
+type Variant = "up" | "left" | "right" | "scale";
+
 type Props = {
   children: ReactNode;
   delay?: 0 | 1 | 2 | 3 | 4 | 5;
+  variant?: Variant;
   className?: string;
 };
 
-export default function Reveal({ children, delay = 0, className = "" }: Props) {
+const variantClass: Record<Variant, string> = {
+  up: "",
+  left: "reveal-left",
+  right: "reveal-right",
+  scale: "reveal-scale",
+};
+
+export default function Reveal({
+  children,
+  delay = 0,
+  variant = "up",
+  className = "",
+}: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const el = ref.current;
-    if (!el) {
-      setVisible(true);
-      return;
-    }
-
-    if (typeof IntersectionObserver === "undefined") {
+    if (!el || typeof IntersectionObserver === "undefined") {
       setVisible(true);
       return;
     }
@@ -35,7 +45,6 @@ export default function Reveal({ children, delay = 0, className = "" }: Props) {
     );
     obs.observe(el);
 
-    // Safety: ensure visible after 2.5s in case observer never fires (e.g. screenshot capture)
     const t = setTimeout(() => setVisible(true), 2500);
 
     return () => {
@@ -47,9 +56,9 @@ export default function Reveal({ children, delay = 0, className = "" }: Props) {
   return (
     <div
       ref={ref}
-      className={`reveal ${delay > 0 ? `reveal-delay-${delay}` : ""} ${
-        visible ? "is-visible" : ""
-      } ${className}`}
+      className={`reveal ${variantClass[variant]} ${
+        delay > 0 ? `reveal-delay-${delay}` : ""
+      } ${visible ? "is-visible" : ""} ${className}`}
     >
       {children}
     </div>
