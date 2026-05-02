@@ -114,7 +114,7 @@ export default async function ConditionPage({
                 provocatieve therapie werken we naar herstel.
               </p>
               <p className="text-sm text-ink-mute italic">
-                Eerst kennismaken? Het eerste gesprek is helemaal vrijblijvend.
+                Stuur een bericht of bel — we plannen een eerste gesprek.
               </p>
             </div>
           </Reveal>
@@ -122,29 +122,40 @@ export default async function ConditionPage({
       </section>
 
       <section className="py-20 bg-cream">
-        <div className="mx-auto max-w-3xl px-6 lg:px-10 text-center">
+        <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
           <Reveal>
-            <h2 className="text-3xl md:text-4xl mb-5">
-              Neem de eerste <span className="gold-text">stap</span>
-            </h2>
-            <p className="text-ink-soft mb-8">
-              Je hoeft het niet alleen uit te zoeken. Stuur een bericht of bel —
-              ik denk graag met je mee.
-            </p>
-            <div className="flex flex-wrap gap-3 justify-center">
-              <Link href="/contact" className="btn-primary">
-                <Calendar size={16} /> Maak een afspraak
-              </Link>
-              <a href="tel:+31630682579" className="btn-secondary">
-                <Phone size={16} /> 06 30682579
-              </a>
+            <div className="relative rounded-[2.5rem] bg-gradient-to-br from-gold-deep via-gold to-gold-light p-10 md:p-14 lg:p-16 text-center overflow-hidden glow-gold">
+              <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-white/10 blur-3xl" />
+              <div className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-blush/20 blur-3xl" />
+              <div className="relative max-w-2xl mx-auto">
+                <h2 className="text-3xl md:text-4xl !text-white mb-5">
+                  Neem de eerste <span className="!text-white">stap</span>
+                </h2>
+                <p className="text-white/90 mb-8 text-lg">
+                  Je hoeft het niet alleen uit te zoeken. Stuur een bericht of bel — ik denk graag met je mee.
+                </p>
+                <div className="flex flex-wrap gap-3 justify-center">
+                  <Link
+                    href="/contact"
+                    className="inline-flex items-center gap-2 px-7 py-3 bg-white text-gold-deep rounded-full font-medium hover:bg-cream hover:scale-[1.02] transition-all"
+                  >
+                    <Calendar size={16} /> Maak een afspraak
+                  </Link>
+                  <a
+                    href="tel:+31630682579"
+                    className="inline-flex items-center gap-2 px-7 py-3 border border-white/40 rounded-full font-medium text-white hover:bg-white/10 transition-colors"
+                  >
+                    <Phone size={16} /> +31 6 30682579
+                  </a>
+                </div>
+              </div>
             </div>
           </Reveal>
         </div>
       </section>
 
       <section className="py-20">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10">
+        <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <div className="text-center mb-10">
             <span className="text-xs uppercase tracking-widest text-gold-deep">
               Andere klachten

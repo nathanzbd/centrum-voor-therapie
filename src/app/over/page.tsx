@@ -18,13 +18,13 @@ export default function OverPage() {
       <Header />
 
       <section className="relative pt-20 pb-16 warm-gradient">
-        <div className="mx-auto max-w-6xl px-6 lg:px-10">
+        <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <span className="text-xs uppercase tracking-widest text-gold-deep">
-                Over Mari Louise
+                Even voorstellen
               </span>
-              <h1 className="text-5xl md:text-6xl mt-3 leading-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl mt-3 leading-tight">
                 Mari Louise<br />
                 <span className="gold-text">Fongers</span>
               </h1>
@@ -36,7 +36,7 @@ export default function OverPage() {
               <div className="absolute -inset-4 rounded-[3rem] bg-gradient-to-br from-blush via-cream to-gold-light blur-2xl opacity-40" />
               <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden border border-line/60 shadow-xl bg-blush-soft">
                 <Image
-                  src="/images/profile/mari-louise-round.png"
+                  src="/images/profile/mari-louise-new.png"
                   alt="Mari Louise Fongers"
                   fill
                   sizes="(max-width: 768px) 100vw, 400px"
@@ -50,15 +50,22 @@ export default function OverPage() {
       </section>
 
       <section className="py-20">
-        <div className="mx-auto max-w-6xl px-6 lg:px-10 grid lg:grid-cols-12 gap-12">
-          <div className="lg:col-span-4">
-            <div className="lg:sticky lg:top-28 max-w-xs mx-auto lg:max-w-none">
+        <div className="mx-auto max-w-[1280px] px-6 lg:px-12 grid lg:grid-cols-12 gap-12">
+          <div className="lg:col-span-7 space-y-6 order-2 lg:order-1">
+            {aboutBio.paragraphs.map((p, i) => (
+              <p key={i} className="text-ink-soft text-[17px] leading-[1.8]">
+                {p}
+              </p>
+            ))}
+          </div>
+          <div className="lg:col-span-5 order-1 lg:order-2">
+            <div className="lg:sticky lg:top-28 max-w-sm mx-auto lg:max-w-none">
               <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-line/60 shadow-xl bg-blush-soft">
                 <Image
-                  src="/images/profile/mari-louise-round.png"
+                  src="/images/profile/mari-louise-new.png"
                   alt="Mari Louise Fongers"
                   fill
-                  sizes="(max-width: 1024px) 80vw, 380px"
+                  sizes="(max-width: 1024px) 80vw, 460px"
                   className="object-cover"
                 />
               </div>
@@ -73,18 +80,11 @@ export default function OverPage() {
               </div>
             </div>
           </div>
-          <div className="lg:col-span-8 space-y-6">
-            {aboutBio.paragraphs.map((p, i) => (
-              <p key={i} className="text-ink-soft text-[17px] leading-[1.8]">
-                {p}
-              </p>
-            ))}
-          </div>
         </div>
       </section>
 
       <section className="py-20 bg-cream">
-        <div className="mx-auto max-w-6xl px-6 lg:px-10">
+        <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
           <div className="text-center mb-12">
             <Award size={32} className="text-gold-deep mx-auto mb-4" />
             <span className="text-xs uppercase tracking-widest text-gold-deep">
@@ -125,16 +125,29 @@ export default function OverPage() {
       </section>
 
       <section className="py-20">
-        <div className="mx-auto max-w-3xl px-6 lg:px-10 text-center">
-          <h2 className="text-3xl md:text-4xl mb-5">Klaar voor je eerste gesprek?</h2>
-          <p className="text-ink-soft mb-8">
-            Stuur me een bericht of bel — ik denk graag met je mee.
-          </p>
-          <Link href="/contact" className="btn-primary">
-            <Calendar size={16} />
-            Maak een afspraak
-            <ArrowRight size={16} />
-          </Link>
+        <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
+          <div className="relative rounded-[2.5rem] bg-gradient-to-br from-gold-deep via-gold to-gold-light p-10 md:p-14 lg:p-16 text-center overflow-hidden glow-gold">
+            <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-white/10 blur-3xl" />
+            <div className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-blush/20 blur-3xl" />
+            <div className="relative max-w-2xl mx-auto">
+              <h2 className="text-3xl md:text-4xl !text-white mb-5">
+                Klaar voor je <span className="!text-white">eerste gesprek?</span>
+              </h2>
+              <p className="text-white/90 mb-8 text-lg">
+                Stuur me een bericht of bel — ik denk graag met je mee.
+              </p>
+              <div className="flex flex-wrap gap-3 justify-center">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center gap-2 px-7 py-3 bg-white text-gold-deep rounded-full font-medium hover:bg-cream hover:scale-[1.02] transition-all"
+                >
+                  <Calendar size={16} />
+                  Maak een afspraak
+                  <ArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

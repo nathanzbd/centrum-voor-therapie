@@ -88,15 +88,26 @@ export default function WerkwijzePage() {
       </section>
 
       <section className="py-20">
-        <div className="mx-auto max-w-3xl px-6 lg:px-10 text-center">
-          <h2 className="text-3xl md:text-4xl mb-5">Klaar om te beginnen?</h2>
-          <p className="text-ink-soft mb-8">
-            Stuur me een bericht — ik denk graag met je mee.
-          </p>
-          <Link href="/contact" className="btn-primary">
-            <Calendar size={16} />
-            Maak een afspraak
-          </Link>
+        <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
+          <div className="relative rounded-[2.5rem] bg-gradient-to-br from-gold-deep via-gold to-gold-light p-10 md:p-14 lg:p-16 text-center overflow-hidden glow-gold">
+            <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-white/10 blur-3xl" />
+            <div className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-blush/20 blur-3xl" />
+            <div className="relative max-w-2xl mx-auto">
+              <h2 className="text-3xl md:text-4xl !text-white mb-5">
+                Klaar om te <span className="!text-white">beginnen?</span>
+              </h2>
+              <p className="text-white/90 mb-8 text-lg">
+                Stuur me een bericht — ik denk graag met je mee.
+              </p>
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-2 px-7 py-3 bg-white text-gold-deep rounded-full font-medium hover:bg-cream hover:scale-[1.02] transition-all"
+              >
+                <Calendar size={16} />
+                Maak een afspraak
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -34,7 +34,7 @@ export default function HomePage() {
         <div className="absolute -top-32 -right-20 w-[600px] h-[600px] rounded-full bg-blush/40 blur-3xl animate-drift" />
         <div className="absolute top-40 -left-32 w-[420px] h-[420px] rounded-full bg-gold-light/30 blur-3xl animate-drift" style={{ animationDelay: "-9s" }} />
 
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-10 pt-20 pb-20">
+        <div className="relative mx-auto max-w-[1440px] px-6 lg:px-12 pt-20 pb-20">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-white/60 backdrop-blur-sm border border-line animate-fade-in-up">
@@ -132,7 +132,7 @@ export default function HomePage() {
       {/* About */}
       <section className="py-20 relative overflow-hidden">
         <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-blush/20 blur-3xl" />
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
+        <div className="relative mx-auto max-w-[1440px] px-6 lg:px-12">
           <div className="grid lg:grid-cols-12 gap-12 items-center">
             <Reveal className="lg:col-span-5">
               <span className="text-xs uppercase tracking-widest text-gold-deep">
@@ -175,7 +175,7 @@ export default function HomePage() {
 
       {/* Educational visual band: integrative therapy approach */}
       <section className="relative py-20 bg-cream overflow-hidden">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
+        <div className="mx-auto max-w-[1440px] px-6 lg:px-12 grid lg:grid-cols-2 gap-16 items-center">
           <Reveal>
             <div className="relative aspect-[4/5] max-w-md">
               <div className="absolute -inset-8 bg-blush/30 blur-3xl rounded-full" />
@@ -232,7 +232,7 @@ export default function HomePage() {
 
       {/* Conditions */}
       <section className="py-20 relative">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10">
+        <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <Reveal>
             <div className="text-center max-w-2xl mx-auto mb-16">
               <span className="text-xs uppercase tracking-widest text-gold-deep">
@@ -301,7 +301,7 @@ export default function HomePage() {
 
       {/* Reviews */}
       <section className="py-20">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10">
+        <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <Reveal>
             <div className="flex flex-col lg:flex-row lg:items-end justify-between mb-12 gap-6">
               <div>
@@ -357,7 +357,7 @@ export default function HomePage() {
 
       {/* Certifications */}
       <section className="py-20 bg-cream">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10">
+        <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <Reveal>
             <div className="text-center mb-12">
               <span className="text-xs uppercase tracking-widest text-gold-deep">
@@ -409,7 +409,7 @@ export default function HomePage() {
                   </h2>
                   <p className="text-white/90 text-lg leading-relaxed mb-8">
                     Twijfel je of therapie iets voor je is? Stuur een berichtje of
-                    bel — ik denk graag met je mee, helemaal vrijblijvend.
+                    bel — ik denk graag met je mee.
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <Link

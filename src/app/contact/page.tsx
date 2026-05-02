@@ -22,7 +22,7 @@ export default function ContactPage() {
         <div className="absolute -top-32 -right-20 w-[600px] h-[600px] rounded-full bg-blush/40 blur-3xl animate-drift" />
         <div className="absolute top-40 -left-32 w-[420px] h-[420px] rounded-full bg-gold-light/30 blur-3xl animate-drift" style={{ animationDelay: "-9s" }} />
 
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-12 gap-12 items-center">
+        <div className="relative mx-auto max-w-[1440px] px-6 lg:px-12 grid lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7">
             <span className="text-xs uppercase tracking-widest text-gold-deep">
               Neem contact op
@@ -32,8 +32,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-lg text-ink-soft mt-6 leading-relaxed max-w-xl">
               Twijfel je of therapie iets voor je is? Of wil je gewoon iets vragen?
-              Je hoeft het niet alleen uit te zoeken — ik denk graag met je mee,
-              vrijblijvend en zonder druk.
+              Je hoeft het niet alleen uit te zoeken — ik denk graag met je mee.
             </p>
             <div className="flex flex-wrap gap-3 mt-8">
               <a href={`tel:${business.phoneRaw}`} className="btn-primary">
@@ -79,7 +78,7 @@ export default function ContactPage() {
       </section>
 
       <section className="py-20">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-5 gap-10">
+        <div className="mx-auto max-w-[1440px] px-6 lg:px-12 grid lg:grid-cols-5 gap-10">
           <Reveal className="lg:col-span-3">
             <ContactForm />
           </Reveal>
@@ -167,7 +166,7 @@ export default function ContactPage() {
       </section>
 
       <section className="pb-24">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10">
+        <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <Reveal>
             <div className="rounded-3xl overflow-hidden border border-line/60 aspect-[16/8]">
               <iframe

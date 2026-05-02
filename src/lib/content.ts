@@ -2,7 +2,7 @@ export const business = {
   name: "Centrum voor Therapie",
   therapist: "Mari Louise Fongers",
   tagline: "Alles is haalbaar, niets is onoverkomelijk",
-  phone: "06 30682579",
+  phone: "+31 6 30682579",
   phoneRaw: "+31630682579",
   email: "centrumvoortherapie@gmail.com",
   whatsapp: "+31630682579",

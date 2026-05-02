@@ -45,7 +45,7 @@ export default function PraktijkPage() {
 
       {/* Asymmetric gallery */}
       <section className="py-20">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10">
+        <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
           <div className="grid grid-cols-12 gap-4">
             <Reveal className="col-span-12 md:col-span-7 md:row-span-2">
               <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-line/60 group bg-blush-soft">
@@ -188,18 +188,27 @@ export default function PraktijkPage() {
       </section>
 
       <section className="py-20">
-        <div className="mx-auto max-w-3xl px-6 lg:px-10 text-center">
+        <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
           <Reveal>
-            <h2 className="text-3xl md:text-4xl mb-5 pb-1">
-              Welkom in <span className="gold-text">de praktijk</span>
-            </h2>
-            <p className="text-ink-soft mb-8">
-              Stuur me een bericht voor een kennismakingsgesprek — vrijblijvend en zonder druk.
-            </p>
-            <Link href="/contact" className="btn-primary">
-              <Calendar size={16} />
-              Plan een gesprek
-            </Link>
+            <div className="relative rounded-[2.5rem] bg-gradient-to-br from-gold-deep via-gold to-gold-light p-10 md:p-14 lg:p-16 text-center overflow-hidden glow-gold">
+              <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-white/10 blur-3xl" />
+              <div className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-blush/20 blur-3xl" />
+              <div className="relative max-w-2xl mx-auto">
+                <h2 className="text-3xl md:text-4xl !text-white mb-5">
+                  Welkom in <span className="!text-white">de praktijk</span>
+                </h2>
+                <p className="text-white/90 mb-8 text-lg">
+                  Stuur me een bericht of plan direct een eerste gesprek.
+                </p>
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center gap-2 px-7 py-3 bg-white text-gold-deep rounded-full font-medium hover:bg-cream hover:scale-[1.02] transition-all"
+                >
+                  <Calendar size={16} />
+                  Plan een gesprek
+                </Link>
+              </div>
+            </div>
           </Reveal>
         </div>
       </section>

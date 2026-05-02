@@ -33,7 +33,7 @@ export default function KlachtenPage() {
       </section>
 
       <section className="py-20">
-        <div className="mx-auto max-w-6xl px-6 lg:px-10 space-y-6">
+        <div className="mx-auto max-w-[1280px] px-6 lg:px-12 space-y-6">
           {conditions.map((c, i) => (
             <article
               key={c.slug}
