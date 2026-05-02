@@ -17,10 +17,10 @@ export default function OverPage() {
     <>
       <Header />
 
-      <section className="relative pt-20 pb-16 warm-gradient">
+      <section className="relative pt-20 pb-20 warm-gradient">
         <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
+          <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+            <div className="lg:col-span-7">
               <span className="text-xs uppercase tracking-widest text-gold-deep">
                 Even voorstellen
               </span>
@@ -28,21 +28,24 @@ export default function OverPage() {
                 Mari Louise<br />
                 <span className="gold-text">Fongers</span>
               </h1>
-              <p className="text-lg text-ink-soft mt-5 leading-relaxed">
+              <p className="text-lg text-ink-soft mt-5 leading-relaxed max-w-xl">
                 {aboutBio.short}
               </p>
             </div>
-            <div className="relative aspect-[4/5] max-w-sm mx-auto">
-              <div className="absolute -inset-4 rounded-[3rem] bg-gradient-to-br from-blush via-cream to-gold-light blur-2xl opacity-40" />
-              <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden border border-line/60 shadow-xl bg-blush-soft">
-                <Image
-                  src="/images/profile/mari-louise-new.png"
-                  alt="Mari Louise Fongers"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 400px"
-                  className="object-cover"
-                  priority
-                />
+            <div className="lg:col-span-5">
+              <div className="relative aspect-[4/5] max-w-[280px] mx-auto">
+                <div className="absolute -inset-6 rounded-[2.5rem] bg-gradient-to-br from-blush via-blush-soft to-gold-light/60 blur-2xl opacity-70" />
+                <div className="absolute inset-0 rounded-[2rem] overflow-hidden border-[3px] border-white shadow-xl">
+                  <Image
+                    src="/images/profile/mari-louise-new.png"
+                    alt="Mari Louise Fongers"
+                    fill
+                    sizes="(max-width: 1024px) 60vw, 280px"
+                    className="object-cover"
+                    style={{ filter: "saturate(1.05) brightness(1.02)" }}
+                    priority
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -50,35 +53,20 @@ export default function OverPage() {
       </section>
 
       <section className="py-20">
-        <div className="mx-auto max-w-[1280px] px-6 lg:px-12 grid lg:grid-cols-12 gap-12">
-          <div className="lg:col-span-7 space-y-6 order-2 lg:order-1">
-            {aboutBio.paragraphs.map((p, i) => (
-              <p key={i} className="text-ink-soft text-[17px] leading-[1.8]">
-                {p}
-              </p>
-            ))}
-          </div>
-          <div className="lg:col-span-5 order-1 lg:order-2">
-            <div className="lg:sticky lg:top-28 max-w-sm mx-auto lg:max-w-none">
-              <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-line/60 shadow-xl bg-blush-soft">
-                <Image
-                  src="/images/profile/mari-louise-new.png"
-                  alt="Mari Louise Fongers"
-                  fill
-                  sizes="(max-width: 1024px) 80vw, 460px"
-                  className="object-cover"
-                />
-              </div>
-              <div className="mt-6 p-6 bg-cream rounded-3xl border border-line/60">
-                <div className="text-xs uppercase tracking-widest text-gold-deep mb-1">
-                  Stijl van werken
-                </div>
-                <p className="text-sm text-ink-soft leading-relaxed">
-                  &ldquo;Betrokken, warm, vol aandacht, onderzoekend en respectvol —
-                  waarbij jouw tempo voorop staat.&rdquo;
-                </p>
-              </div>
+        <div className="mx-auto max-w-3xl px-6 lg:px-12 space-y-6">
+          {aboutBio.paragraphs.map((p, i) => (
+            <p key={i} className="text-ink-soft text-[17px] leading-[1.8]">
+              {p}
+            </p>
+          ))}
+          <div className="mt-10 p-6 bg-cream rounded-3xl border border-line/60 text-center">
+            <div className="text-xs uppercase tracking-widest text-gold-deep mb-2">
+              Stijl van werken
             </div>
+            <p className="text-ink-soft italic leading-relaxed">
+              &ldquo;Betrokken, warm, vol aandacht, onderzoekend en respectvol —
+              waarbij jouw tempo voorop staat.&rdquo;
+            </p>
           </div>
         </div>
       </section>
