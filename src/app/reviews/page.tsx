@@ -39,7 +39,7 @@ export default function ReviewsPage() {
       </section>
 
       <section className="py-20">
-        <div className="mx-auto max-w-[1280px] px-6 lg:px-12 grid md:grid-cols-2 gap-6">
+        <div className="mx-auto max-w-6xl px-6 lg:px-10 grid md:grid-cols-2 gap-6">
           {reviews.map((r, i) => (
             <Reveal key={i} delay={((i % 3) + 1) as 1 | 2 | 3}>
             <article

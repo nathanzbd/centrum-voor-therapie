@@ -122,7 +122,7 @@ export default async function ConditionPage({
       </section>
 
       <section className="py-20 bg-cream">
-        <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
+        <div className="mx-auto max-w-6xl px-6 lg:px-10">
           <Reveal>
             <div className="relative rounded-[2.5rem] bg-gradient-to-br from-gold-deep via-gold to-gold-light p-10 md:p-14 lg:p-16 text-center overflow-hidden glow-gold">
               <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-white/10 blur-3xl" />
@@ -155,7 +155,7 @@ export default async function ConditionPage({
       </section>
 
       <section className="py-20">
-        <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
+        <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <div className="text-center mb-10">
             <span className="text-xs uppercase tracking-widest text-gold-deep">
               Andere klachten

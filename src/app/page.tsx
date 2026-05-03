@@ -33,7 +33,7 @@ export default function HomePage() {
         <div className="absolute -top-32 -right-20 w-[600px] h-[600px] rounded-full bg-blush/40 blur-3xl animate-drift" />
         <div className="absolute top-40 -left-32 w-[420px] h-[420px] rounded-full bg-gold-light/30 blur-3xl animate-drift" style={{ animationDelay: "-9s" }} />
 
-        <div className="relative mx-auto max-w-[1440px] px-6 lg:px-12 pt-20 pb-20">
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-10 pt-20 pb-20">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] mb-6 animate-fade-in-up pb-2">
@@ -142,7 +142,7 @@ export default function HomePage() {
       {/* About */}
       <section className="py-20 relative overflow-hidden">
         <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-blush/20 blur-3xl" />
-        <div className="relative mx-auto max-w-[1440px] px-6 lg:px-12">
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
           <div className="grid lg:grid-cols-12 gap-12 items-center">
             <Reveal className="lg:col-span-5">
               <span className="text-xs uppercase tracking-widest text-gold-deep">
@@ -185,7 +185,7 @@ export default function HomePage() {
 
       {/* Educational visual band: integrative therapy approach */}
       <section className="relative py-20 bg-cream overflow-hidden">
-        <div className="mx-auto max-w-[1280px] px-6 lg:px-12 grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+        <div className="mx-auto max-w-6xl px-6 lg:px-10 grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
           <Reveal>
             <div className="relative aspect-[4/5] max-w-md mx-auto lg:mx-0">
               <div className="absolute -inset-8 bg-blush/30 blur-3xl rounded-full" />
@@ -242,7 +242,7 @@ export default function HomePage() {
 
       {/* Conditions */}
       <section className="py-20 relative">
-        <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
+        <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <Reveal>
             <div className="text-center max-w-2xl mx-auto mb-16">
               <span className="text-xs uppercase tracking-widest text-gold-deep">
@@ -311,7 +311,7 @@ export default function HomePage() {
 
       {/* Reviews */}
       <section className="py-20">
-        <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
+        <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <Reveal>
             <div className="flex flex-col lg:flex-row lg:items-end justify-between mb-12 gap-6">
               <div>
@@ -367,7 +367,7 @@ export default function HomePage() {
 
       {/* Certifications */}
       <section className="py-20 bg-cream">
-        <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
+        <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <Reveal>
             <div className="text-center mb-12">
               <span className="text-xs uppercase tracking-widest text-gold-deep">

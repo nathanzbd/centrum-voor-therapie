@@ -6,7 +6,7 @@ import { business } from "@/lib/content";
 export default function Footer() {
   return (
     <footer className="border-t border-line/50 bg-cream">
-      <div className="mx-auto max-w-[1440px] px-6 lg:px-12 py-16">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
             <Image
