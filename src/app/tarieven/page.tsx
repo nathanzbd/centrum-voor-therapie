@@ -96,11 +96,6 @@ export default function TarievenPage() {
             {tariffs.map((t, i) => (
               <Reveal key={i} delay={(i + 1) as 1 | 2}>
                 <div className="relative bg-white rounded-3xl p-10 border border-line/60 h-full shadow-sm hover:shadow-xl transition-all hover:-translate-y-1 overflow-hidden">
-                  {i === 0 && (
-                    <div className="absolute top-5 right-5 px-3 py-1 rounded-full bg-blush text-gold-deep text-[10px] uppercase tracking-widest font-medium">
-                      Populair
-                    </div>
-                  )}
                   <div className="text-xs uppercase tracking-widest text-gold-deep mb-2">
                     {t.duration}
                   </div>
