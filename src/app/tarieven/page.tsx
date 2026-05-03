@@ -82,7 +82,7 @@ export default function TarievenPage() {
           <p className="text-ink-soft text-[17px] leading-relaxed">
             Veel zorgverzekeraars vergoeden integratieve psychotherapie via de
             aanvullende verzekering. Of er sprake is van vergoeding bij jouw
-            verzekeraar hangt af van je polis. Vraag dit op vóór je begint —
+            verzekeraar hangt af van je polis. Vraag dit op vóór je begint,
             dan weet je waar je aan toe bent.
           </p>
           <p className="text-ink-soft text-[17px] leading-relaxed">
@@ -99,7 +99,7 @@ export default function TarievenPage() {
             <div className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-blush/20 blur-3xl" />
             <div className="relative max-w-2xl mx-auto">
               <h2 className="text-3xl md:text-4xl !text-white mb-5">Vragen over <span className="!text-white">kosten?</span></h2>
-              <p className="text-white/90 mb-8 text-lg">Vraag het me gerust — ik geef je graag duidelijkheid.</p>
+              <p className="text-white/90 mb-8 text-lg">Vraag het me gerust. Ik geef je graag duidelijkheid.</p>
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 px-7 py-3 bg-white text-gold-deep rounded-full font-medium hover:bg-cream hover:scale-[1.02] transition-all"

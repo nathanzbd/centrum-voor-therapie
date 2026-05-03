@@ -59,7 +59,7 @@ export default function ContactForm() {
         </div>
         <h3 className="text-2xl mb-3">Bedankt voor je bericht</h3>
         <p className="text-ink-soft">
-          Ik neem zo snel mogelijk contact met je op — meestal binnen 48 uur.
+          Ik neem zo snel mogelijk contact met je op, meestal binnen 48 uur.
         </p>
       </div>
     );

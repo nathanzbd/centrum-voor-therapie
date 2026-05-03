@@ -27,7 +27,7 @@ export default function KlachtenPage() {
             Klachten waarbij ik je <span className="gold-text">begeleid</span>
           </h1>
           <p className="text-lg text-ink-soft mt-5 max-w-2xl mx-auto">
-            Voor uiteenlopende klachten bied ik persoonlijke begeleiding —
+            Voor uiteenlopende klachten bied ik persoonlijke begeleiding,
             afgestemd op jouw situatie en verhaal.
           </p>
         </div>

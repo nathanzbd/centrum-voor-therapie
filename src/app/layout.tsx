@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Lora } from "next/font/google";
 import "./globals.css";
+import StructuredData from "@/components/StructuredData";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -16,7 +17,11 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Centrum voor Therapie | Mari Louise Fongers — Psycholoog Purmerend",
+  metadataBase: new URL("https://centrumvoortherapie.nl"),
+  title: {
+    default: "Centrum voor Therapie | Mari Louise Fongers · Psycholoog Purmerend",
+    template: "%s | Centrum voor Therapie",
+  },
   description:
     "Praktijk voor integratieve psychotherapie in Purmerend. Persoonlijke begeleiding bij stress, angst, burn-out, depressie, trauma en chronische pijn. Snel een eerste afspraak, zonder verwijsbrief.",
   keywords: [
@@ -30,15 +35,40 @@ export const metadata: Metadata = {
     "angst therapie",
   ],
   authors: [{ name: "Mari Louise Fongers" }],
+  alternates: { canonical: "https://centrumvoortherapie.nl" },
   openGraph: {
-    title: "Centrum voor Therapie — Psycholoog in Purmerend",
+    title: "Centrum voor Therapie · Psycholoog in Purmerend",
     description:
       "Persoonlijke psychotherapie en coaching. Warm, betrokken, vol aandacht. Snel terecht zonder verwijsbrief.",
     type: "website",
     locale: "nl_NL",
     url: "https://centrumvoortherapie.nl",
+    siteName: "Centrum voor Therapie",
+    images: [
+      {
+        url: "/images/logo/logo-icon.png",
+        width: 366,
+        height: 259,
+        alt: "Centrum voor Therapie",
+      },
+    ],
   },
-  robots: { index: true, follow: true },
+  twitter: {
+    card: "summary",
+    title: "Centrum voor Therapie · Psycholoog in Purmerend",
+    description:
+      "Persoonlijke psychotherapie en coaching. Warm, betrokken, vol aandacht.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -49,7 +79,10 @@ export default function RootLayout({
       lang="nl"
       className={`${inter.variable} ${lora.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <StructuredData />
+        {children}
+      </body>
     </html>
   );
 }

@@ -90,7 +90,7 @@ export default function OverPage() {
                 Stijl van werken
               </div>
               <p className="text-ink-soft italic text-lg leading-relaxed">
-                &ldquo;Betrokken, warm, vol aandacht, onderzoekend en respectvol —
+                &ldquo;Betrokken, warm, vol aandacht, onderzoekend en respectvol,
                 waarbij jouw tempo voorop staat.&rdquo;
               </p>
             </div>
@@ -175,7 +175,7 @@ export default function OverPage() {
                 Klaar voor je <span className="!text-white">eerste gesprek?</span>
               </h2>
               <p className="text-white/90 mb-8 text-lg">
-                Stuur me een bericht of bel — ik denk graag met je mee.
+                Stuur me een bericht of bel. Ik denk graag met je mee.
               </p>
               <div className="flex flex-wrap gap-3 justify-center">
                 <Link

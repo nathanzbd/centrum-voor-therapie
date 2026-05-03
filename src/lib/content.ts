@@ -23,7 +23,7 @@ export const business = {
   hours: {
     note: "Alleen op afspraak",
     schedule: [
-      { day: "Maandag t/m vrijdag", time: "Op afspraak — vanaf 9:00" },
+      { day: "Maandag t/m vrijdag", time: "Op afspraak, vanaf 9:00" },
       { day: "Weekend", time: "Gesloten" },
     ],
   },
@@ -220,11 +220,11 @@ export const tariffs = [
 
 export const aboutBio = {
   short:
-    "Afgestudeerd in Sociale Psychologie en Integratieve Psychotherapie met bijna 20 jaar praktijkervaring. Cliënten omschrijven mijn stijl als betrokken, warm, vol aandacht, onderzoekend en respectvol — waarbij jouw tempo voorop staat.",
+    "Afgestudeerd in Sociale Psychologie en Integratieve Psychotherapie met bijna 20 jaar praktijkervaring. Cliënten omschrijven mijn stijl als betrokken, warm, vol aandacht, onderzoekend en respectvol, waarbij jouw tempo voorop staat.",
   paragraphs: [
     "Na mijn studies werkte ik in het bedrijfsleven, maar in 2003 maakte ik de overstap naar mijn oorspronkelijke passie: betrokkenheid en interesse in de mens en maatschappij. Vanuit een afgeronde opleiding Sociale Psychologie volgde ik de opleiding Integratieve Psychotherapie aan de Nederlandse Academie voor Psychotherapie.",
-    "Ter verdere professionalisering doorliep ik de volledige ECP-status (European Certified Psychotherapy). Om mezelf te blijven ontwikkelen volg ik voortdurend bijscholingen — met onder meer Systemisch werken, Cognitieve therapie, Provocatieve therapie, A&O Psychologie en klachtverhelderingstechnieken. Ik ben tevens gecertificeerd Mindfulness en ACT trainer.",
-    "Sinds de start van mijn praktijk heb ik veel ervaring opgedaan in het therapeutisch begeleiden van mensen met diverse hulpvragen. Enkele jaren werkte ik in een revalidatiecentrum waar omgaan met chronische pijn centraal staat. Ik geniet er intens van bij te dragen aan het zelfhelende vermogen van de mens — psychotherapie en coaching brengen je dáár waar je wilt zijn.",
-    "Mijn stijl van werken omschrijven cliënten als betrokken, warm, vol aandacht, onderzoekend en respectvol — waarbij het ontwikkelingstempo van de cliënt vóórop staat.",
+    "Ter verdere professionalisering doorliep ik de volledige ECP-status (European Certified Psychotherapy). Om mezelf te blijven ontwikkelen volg ik voortdurend bijscholingen, met onder meer Systemisch werken, Cognitieve therapie, Provocatieve therapie, A&O Psychologie en klachtverhelderingstechnieken. Ik ben tevens gecertificeerd Mindfulness en ACT trainer.",
+    "Sinds de start van mijn praktijk heb ik veel ervaring opgedaan in het therapeutisch begeleiden van mensen met diverse hulpvragen. Enkele jaren werkte ik in een revalidatiecentrum waar omgaan met chronische pijn centraal staat. Ik geniet er intens van bij te dragen aan het zelfhelende vermogen van de mens. Psychotherapie en coaching brengen je dáár waar je wilt zijn.",
+    "Mijn stijl van werken omschrijven cliënten als betrokken, warm, vol aandacht, onderzoekend en respectvol, waarbij het ontwikkelingstempo van de cliënt vóórop staat.",
   ],
 };

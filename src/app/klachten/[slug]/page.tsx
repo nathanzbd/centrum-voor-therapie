@@ -21,7 +21,7 @@ export async function generateMetadata({
   const c = conditions.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.title} — hulp bij ${c.title.toLowerCase()} | Centrum voor Therapie`,
+    title: `${c.title} · hulp bij ${c.title.toLowerCase()} | Centrum voor Therapie`,
     description: c.summary,
   };
 }
@@ -109,12 +109,12 @@ export default async function ConditionPage({
               </div>
               <h2 className="text-2xl mb-5">Persoonlijk &amp; integratief</h2>
               <p className="text-ink-soft leading-relaxed mb-4">
-                Geen vast protocol — ik kies de aanpak die past bij jouw verhaal en
+                Geen vast protocol. Ik kies de aanpak die past bij jouw verhaal en
                 tempo. Met onder meer cognitieve therapie, EMDR, mindfulness of
                 provocatieve therapie werken we naar herstel.
               </p>
               <p className="text-sm text-ink-mute italic">
-                Stuur een bericht of bel — we plannen een eerste gesprek.
+                Stuur een bericht of bel, dan plannen we een eerste gesprek.
               </p>
             </div>
           </Reveal>
@@ -132,7 +132,7 @@ export default async function ConditionPage({
                   Neem de eerste <span className="!text-white">stap</span>
                 </h2>
                 <p className="text-white/90 mb-8 text-lg">
-                  Je hoeft het niet alleen uit te zoeken. Stuur een bericht of bel — ik denk graag met je mee.
+                  Je hoeft het niet alleen uit te zoeken. Stuur een bericht of bel, ik denk graag met je mee.
                 </p>
                 <div className="flex flex-wrap gap-3 justify-center">
                   <Link

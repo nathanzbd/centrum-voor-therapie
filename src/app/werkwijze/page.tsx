@@ -8,7 +8,7 @@ import { Calendar, MessageCircle, Compass, Sparkles } from "lucide-react";
 export const metadata = {
   title: "Werkwijze | Integratieve Psychotherapie",
   description:
-    "Hoe werkt een traject? Integratieve psychotherapie bij Centrum voor Therapie — persoonlijk, op maat en in jouw tempo.",
+    "Hoe werkt een traject? Integratieve psychotherapie bij Centrum voor Therapie. Persoonlijk, op maat en in jouw tempo.",
 };
 
 const steps = [
@@ -25,7 +25,7 @@ const steps = [
   {
     icon: Sparkles,
     title: "Begeleid herstel",
-    text: "Met passende methodieken — van gesprek tot EMDR, van mindfulness tot ACT — werken we aan herstel in jouw tempo.",
+    text: "Met passende methodieken (van gesprek tot EMDR, van mindfulness tot ACT) werken we aan herstel in jouw tempo.",
   },
 ];
 
@@ -76,7 +76,7 @@ export default function WerkwijzePage() {
             <h2 className="text-3xl md:text-4xl mb-4">Wat houdt integratieve therapie in?</h2>
           <p className="text-ink-soft text-[17px] leading-relaxed">
             Integratieve psychotherapie is een aanpak waarbij verschillende methodes
-            samenkomen — afgestemd op wat jij op dat moment nodig hebt. Geen
+            samenkomen, afgestemd op wat jij op dat moment nodig hebt. Geen
             standaardrecept, maar een traject op maat.
           </p>
           <p className="text-ink-soft text-[17px] leading-relaxed">
@@ -102,7 +102,7 @@ export default function WerkwijzePage() {
                 Klaar om te <span className="!text-white">beginnen?</span>
               </h2>
               <p className="text-white/90 mb-8 text-lg">
-                Stuur me een bericht — ik denk graag met je mee.
+                Stuur me een bericht. Ik denk graag met je mee.
               </p>
               <Link
                 href="/contact"

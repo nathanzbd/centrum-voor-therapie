@@ -32,7 +32,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-lg text-ink-soft mt-6 leading-relaxed max-w-xl">
               Twijfel je of therapie iets voor je is? Of wil je gewoon iets vragen?
-              Je hoeft het niet alleen uit te zoeken — ik denk graag met je mee.
+              Je hoeft het niet alleen uit te zoeken. Ik denk graag met je mee.
             </p>
             <div className="flex flex-wrap gap-3 mt-8">
               <a href={`tel:${business.phoneRaw}`} className="btn-primary">

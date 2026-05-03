@@ -138,8 +138,8 @@ export default function PraktijkPage() {
                 </div>
                 <h3 className="text-xl mb-2">Met de auto</h3>
                 <p className="text-sm text-ink-soft leading-relaxed">
-                  Voldoende gratis parkeergelegenheid recht tegenover de praktijk —
-                  geen zoeken nodig.
+                  Voldoende gratis parkeergelegenheid recht tegenover de praktijk.
+                  Geen zoeken nodig.
                 </p>
               </div>
             </Reveal>

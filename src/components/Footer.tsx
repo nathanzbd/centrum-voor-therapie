@@ -18,7 +18,7 @@ export default function Footer() {
             />
             <p className="text-sm text-ink-soft leading-relaxed mb-4 max-w-xs">
               Praktijk voor integratieve psychotherapie in Purmerend. Mari Louise
-              Fongers — warm, betrokken en vol aandacht.
+              Fongers. Warm, betrokken en vol aandacht.
             </p>
             <p className="text-xs text-ink-mute italic">
               &quot;{business.tagline}&quot;

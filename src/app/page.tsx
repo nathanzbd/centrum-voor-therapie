@@ -44,7 +44,7 @@ export default function HomePage() {
 
               <p className="text-lg text-ink-soft leading-relaxed mb-8 max-w-lg animate-fade-in-up delay-100 italic">
                 &ldquo;Waar kan ik jou bij helpen? Samen ontdekken we wat jij wilt
-                bereiken — en zetten we daar concrete stappen in. In alle veiligheid,
+                bereiken, en zetten we daar concrete stappen in. In alle veiligheid,
                 in jouw tempo.&rdquo;
               </p>
 
@@ -97,7 +97,7 @@ export default function HomePage() {
                   <p className="text-sm text-ink-soft italic leading-snug">
                     &ldquo;Waar kan ik jou bij helpen?&rdquo;
                   </p>
-                  <p className="text-xs text-ink-mute mt-1">— Mari Louise</p>
+                  <p className="text-xs text-ink-mute mt-1">Mari Louise</p>
                 </div>
 
                 <div className="hidden sm:block absolute -top-6 -right-4 bg-gold-deep !text-white rounded-2xl px-4 py-3 shadow-xl">
@@ -173,7 +173,7 @@ export default function HomePage() {
                 </p>
                 <p>
                   Ik maak gebruik van verscheidene psychologische stromingen én van
-                  jouw reeds aanwezige hulpbronnen — zodat je een volledig
+                  jouw reeds aanwezige hulpbronnen, zodat je een volledig
                   persoonlijke en op maat gemaakte begeleiding krijgt. Jouw
                   ontwikkelingstempo staat altijd voorop.
                 </p>
@@ -192,7 +192,7 @@ export default function HomePage() {
               <div className="relative w-full h-full rounded-3xl overflow-hidden border border-line/60 shadow-xl bg-blush-soft">
                 <Image
                   src="/images/educational/tree-of-growth.jpg"
-                  alt="Geworteld groeien — integratieve psychotherapie"
+                  alt="Geworteld groeien · integratieve psychotherapie"
                   fill
                   sizes="(max-width: 1024px) 80vw, 480px"
                   className="object-cover"
@@ -216,7 +216,7 @@ export default function HomePage() {
             </h2>
             <p className="text-ink-soft text-lg leading-relaxed mt-6 mb-6">
               Integratieve psychotherapie betekent dat ik verschillende therapeutische
-              stromingen combineer — afgestemd op wat jij op dat moment nodig hebt.
+              stromingen combineer, afgestemd op wat jij op dat moment nodig hebt.
             </p>
             <ul className="space-y-3 text-ink-soft mb-8">
               {[
@@ -252,7 +252,7 @@ export default function HomePage() {
                 Herken jij iets <span className="gold-text">van het volgende?</span>
               </h2>
               <p className="text-ink-soft mt-5 text-lg">
-                Voor uiteenlopende klachten bied ik persoonlijke begeleiding —
+                Voor uiteenlopende klachten bied ik persoonlijke begeleiding,
                 afgestemd op jouw situatie en verhaal.
               </p>
             </div>
@@ -419,7 +419,7 @@ export default function HomePage() {
                   </h2>
                   <p className="text-white/90 text-lg leading-relaxed mb-8">
                     Twijfel je of therapie iets voor je is? Stuur een berichtje of
-                    bel — ik denk graag met je mee.
+                    bel, ik denk graag met je mee.
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <Link
